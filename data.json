@@ -1,43 +1,43 @@
 {
- "updatedAt": "2026-11-16T15:51:33Z",
- "updatedLabel": "Mon 16 Nov, 19:50 Dubai",
+ "updatedAt": "2026-11-16T17:51:23Z",
+ "updatedLabel": "Mon 16 Nov, 21:55 Dubai",
  "regime": {
-  "score": 36,
+  "score": 35,
   "label": "Cautious, no panic",
-  "summary": "US stocks lower as chips sell before Nvidia's results and the Anthropic IPO. VIX about 20.5: alert, far from panic. Stoxx 600 flat near its record. Gold near a one-year low, 10-year about 5.13%. New York factory survey fell to 7.8 (about 18 expected)."
+  "summary": "S&P 500 -1.2% and Nasdaq -1.6% at 11:47 ET, a third down day, led by chips and crypto stocks before Nvidia results. VIX 20.9: alert, far from panic (30). Warsh gave no rate signal. Stoxx 600 flat near its record. Brent about $93 (-2.7%), gold near a one-year low, 10-year 5.14%."
  },
- "brief": "US stocks down about 1% as chips slide before Nvidia's results Tuesday night (TSMC -6%, Cerebras -10%). Today: sell Cerebras (stop broken), Novo lab trade moved to WAIT, and check whether the Alphabet $288 order filled.",
+ "brief": "US stocks still down about 1% (Nasdaq -1.6%) as chips and crypto slide before Nvidia results Tuesday night; Fed Chair Warsh said nothing on rates. Today: sell CBRS if the stop did not fill, check the GOOGL $288 order, and no L3Harris buy (now mixed, not mood).",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,462",
-   "change": -1.08
+   "value": "7,475",
+   "change": -1.15
   },
   {
    "name": "Stoxx 600",
-   "value": "664",
-   "change": 0
+   "value": "663",
+   "change": -0.16
   },
   {
    "name": "VIX (fear)",
-   "value": "20.5",
-   "change": 6.1,
+   "value": "20.9",
+   "change": 8.3,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,869",
-   "change": -0.45
+   "value": "$3,859",
+   "change": -0.69
   },
   {
    "name": "Brent",
-   "value": "$94.00",
-   "change": null
+   "value": "$93.20",
+   "change": -2.7
   },
   {
    "name": "US 10y",
-   "value": "5.13%",
-   "change": null,
+   "value": "5.14%",
+   "change": -0.39,
    "invert": true
   }
  ],
@@ -85,6 +85,18 @@
     "id": "s4",
     "time": "",
     "text": "Infineon changed from mood to mixed. Order plan unchanged: still WAIT until Wed",
+    "done": false
+   },
+   {
+    "id": "t1",
+    "time": "20:30",
+    "text": "CBRS back near $101: if the stop did not sell, SELL now",
+    "done": false
+   },
+   {
+    "id": "r5",
+    "time": "",
+    "text": "L3Harris changed from mood to mixed: no $255 buy order this week",
     "done": false
    }
   ]
@@ -189,10 +201,10 @@
   {
    "ticker": "LHX",
    "call": "watch",
-   "why": "mood",
+   "why": "mixed",
    "name": "L3Harris",
-   "trigger": "WATCH. If LHX closes below $255 by Fri Nov 20 with no FAA penalty news, BUY 2 at a $255 limit.",
-   "story": "Blamed for the FAA ground stop, about -4%. Q3 beat and raised, record backlog."
+   "trigger": "WATCH only. No buy this week. Reconsider after the FAA names the cause; if L3Harris is cleared and LHX holds above $255, BUY 2 at a $255 limit.",
+   "story": "Core solid: Q3 revenue +7%, EPS guide raised. But the Communications guide and 2028 cash flow target were cut, and the FAA cause is unresolved."
   },
   {
    "ticker": "NOW",
