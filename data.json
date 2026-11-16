@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-11-16T18:52:00Z",
- "updatedLabel": "Mon 16 Nov, 22:55 Dubai",
+ "updatedAt": "2026-11-16T20:51:49Z",
+ "updatedLabel": "Tue 17 Nov, 00:25 Dubai",
  "regime": {
-  "score": 35,
+  "score": 30,
   "label": "Cautious, no panic",
-  "summary": "S&P 500 -1.3% and Nasdaq -1.8% at 12:18 ET, a third down day, led by chips and crypto stocks before Nvidia results. VIX 21: alert, far from panic (30). Stoxx 600 closed -0.3% near its record; SMI hit a record. Brent about $94, gold near a one-year low, 10-year 5.14%."
+  "summary": "S&P 500 -2.0% and Nasdaq -2.5% at 15:12 ET, led by chips after a new US rule on remote access to AI chips. VIX 21.9: alert, far from panic (30). Stoxx 600 closed -0.3%. Brent fell to about $92, 10-year 5.12%."
  },
- "brief": "US stocks down about 1.3% (Nasdaq -1.8%) as chips and crypto slide before Nvidia results Tuesday night; Europe closed flat. Today: Richemont is now a BUY (limit CHF 170 for Tuesday), sell CBRS if the stop did not fill, and check the GOOGL $288 order.",
+ "brief": "US stocks fell harder into the afternoon (S&P 500 -2.0%, Nasdaq -2.5%) on new US curbs on China's access to AI computing and Nvidia's CEO turmoil. No new buy tonight: keep the Richemont CHF 170 order for Tuesday and add no AI stock before Nvidia's results.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,463",
-   "change": -1.31
+   "value": "7,409",
+   "change": -2.02
   },
   {
    "name": "Stoxx 600",
@@ -20,89 +20,47 @@
   },
   {
    "name": "VIX (fear)",
-   "value": "21.1",
-   "change": 9.08,
+   "value": "21.9",
+   "change": 14.5,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,870",
-   "change": -0.41
+   "value": "$3,863",
+   "change": -0.95
   },
   {
    "name": "Brent",
-   "value": "$93.20",
-   "change": -2.7
+   "value": "$92.34",
+   "change": -3.27
   },
   {
    "name": "US 10y",
-   "value": "5.14%",
-   "change": -0.39,
+   "value": "5.12%",
+   "change": -0.58,
    "invert": true
   }
  ],
  "todo": {
-  "date": "2026-11-16",
-  "focus": "Cowboy lab starts.",
+  "date": "2026-11-17",
+  "focus": "Nvidia results tonight (~01:20 Dubai). Prepare, don't bet.",
   "items": [
    {
-    "id": "c",
-    "time": "18:00",
-    "text": "Alphabet: place a limit BUY 1 GOOGL at $288, valid until Fri Nov 20 (cancel any $300 order)",
-    "done": true
-   },
-   {
-    "id": "n1",
-    "time": "19:00",
-    "text": "Lab: BUY 23 NVO $42.60-42.95 if above $42, stop $41.90, sell at $45.20, hold up to 3 days",
+    "id": "r1",
+    "time": "12:00",
+    "text": "Richemont: if Mon close above CHF 165, BUY 2 CFR, limit CHF 170 (Zurich)",
     "done": false
    },
    {
-    "id": "f2",
+    "id": "r2",
+    "time": "18:30",
+    "text": "Cisco: if Mon close above $94, BUY up to 6 CSCO, limit $96",
+    "done": false
+   },
+   {
+    "id": "g",
     "time": "",
-    "text": "Fortinet is now WAIT: if the $125 order was placed, cancel it",
-    "done": false
-   },
-   {
-    "id": "s1",
-    "time": "",
-    "text": "SELL CBRS: the $100 stop is broken (about $97.92 at 10:25 ET). Check the live price first",
-    "done": false
-   },
-   {
-    "id": "s2",
-    "time": "19:55",
-    "text": "NVO changed to WAIT: no buy before 21:00 Dubai, only if $42.60-42.95 after. Cancel any order now",
-    "done": false
-   },
-   {
-    "id": "s3",
-    "time": "",
-    "text": "Check whether the GOOGL $288 limit filled (traded about $286 today)",
-    "done": false
-   },
-   {
-    "id": "s4",
-    "time": "",
-    "text": "Infineon changed from mood to mixed. Order plan unchanged: still WAIT until Wed",
-    "done": false
-   },
-   {
-    "id": "t1",
-    "time": "20:30",
-    "text": "CBRS back near $101: if the stop did not sell, SELL now",
-    "done": false
-   },
-   {
-    "id": "r5",
-    "time": "",
-    "text": "L3Harris changed from mood to mixed: no $255 buy order this week",
-    "done": false
-   },
-   {
-    "id": "cfr1",
-    "time": "22:30",
-    "text": "Richemont is now BUY: place a limit BUY 2 CFR at CHF 170 for Tue (SIX or ADR CFRUY), max CHF 175",
+    "text": "Do NOT buy more Nvidia or AI stocks before the results tonight",
     "done": false
    }
   ]
@@ -133,14 +91,6 @@
    "story": "Options price a move of about 9.6%. First report since the CEO resigned; the risk is the reaction, not the numbers."
   },
   {
-   "ticker": "NVO",
-   "call": "wait",
-   "why": "lab",
-   "name": "Novo Nordisk (lab swing)",
-   "trigger": "WAIT. No buy before the Fed speaker at 21:00 Dubai. After that, BUY only if NVO trades $42.60-42.95; skip if not by 22:00 Dubai.",
-   "story": "CagriSema data from early November, so the push is modest. Price sits just under the $42 floor."
-  },
-  {
    "ticker": "FTNT",
    "call": "wait",
    "why": "mixed",
@@ -161,7 +111,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Alphabet",
-   "trigger": "The $288 limit may have filled today (about $286 at 10:23 ET). If not filled, it stays valid until Fri Nov 20.",
+   "trigger": "The $288 limit may have filled (about $286 at 10:23 ET; about $285 later). If not filled, it stays valid until Fri Nov 20.",
    "story": "Cloud sales doubled; 28% below its high. Also benefits from the Anthropic IPO."
   },
   {
@@ -169,7 +119,7 @@
    "call": "wait",
    "why": "mood",
    "name": "TSMC",
-   "trigger": "Now about $373, under the $385 floor. From Wed Nov 18: BUY 1 at a $395 limit only if TSM closes back above $385 first.",
+   "trigger": "Now about $374, under the $385 floor. From Wed Nov 18: BUY 1 at a $395 limit only if TSM closes back above $385 first.",
    "story": "October sales +59.7%. The drop is chip-sector mood, not TSMC news."
   },
   {
@@ -177,7 +127,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Infineon · Xetra",
-   "trigger": "From Wed Nov 18: BUY 10 with a limit at EUR 48.50 if IFX holds above EUR 46. Now about EUR 48.90.",
+   "trigger": "From Wed Nov 18: BUY 10 with a limit at EUR 48.50 if IFX holds above EUR 46. Mon close EUR 49.24.",
    "story": "Guides next year +22% on data-center power chips; 45% below its high. Growth leans on one segment."
   },
   {
@@ -201,7 +151,7 @@
    "call": "wait",
    "why": "mood",
    "name": "Schneider Electric · Paris",
-   "trigger": "BUY 2 with a limit at EUR 235 (now about EUR 240).",
+   "trigger": "BUY 2 with a limit at EUR 235 (Mon close EUR 241.55).",
    "story": "Organic growth +17%, guidance raised. Fell on the PTC deal, not demand."
   },
   {
@@ -229,12 +179,20 @@
    "story": "Revenue +58% and outlook raised, but memory shortages threaten margins and analysts are cutting. Mixed, not mood."
   },
   {
-   "ticker": "MRNA",
+   "ticker": "CTVA",
    "call": "avoid",
    "why": "business",
-   "name": "Moderna",
-   "trigger": "AVOID. Do not buy the dip. Fri close $223.37 vs analyst average target $158.",
-   "story": "Costs stay above $4B a year, no breakeven before 2029. A drop that touches profits is not a mood drop."
+   "name": "Corteva",
+   "trigger": "AVOID. Do not buy the dip. Recheck only after the Q4 report if Brazil sales stop falling.",
+   "story": "-24% in a day after cutting its yearly forecast. Sales -9%, Latin America -31% on a Brazil farm slump."
+  },
+  {
+   "ticker": "STLA",
+   "call": "avoid",
+   "why": "business",
+   "name": "Stellantis · Milan",
+   "trigger": "AVOID. Do not buy the dip. Recheck only if cash flow turns positive in a report.",
+   "story": "Record low after a cost warning. Operating margin 0.7%, free cash flow -EUR 4.0bn, dividend cut."
   }
  ],
  "agenda": [
