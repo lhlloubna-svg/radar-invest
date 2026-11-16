@@ -1,33 +1,33 @@
 {
- "updatedAt": "2026-11-16T17:51:23Z",
- "updatedLabel": "Mon 16 Nov, 21:55 Dubai",
+ "updatedAt": "2026-11-16T18:52:00Z",
+ "updatedLabel": "Mon 16 Nov, 22:55 Dubai",
  "regime": {
   "score": 35,
   "label": "Cautious, no panic",
-  "summary": "S&P 500 -1.2% and Nasdaq -1.6% at 11:47 ET, a third down day, led by chips and crypto stocks before Nvidia results. VIX 20.9: alert, far from panic (30). Warsh gave no rate signal. Stoxx 600 flat near its record. Brent about $93 (-2.7%), gold near a one-year low, 10-year 5.14%."
+  "summary": "S&P 500 -1.3% and Nasdaq -1.8% at 12:18 ET, a third down day, led by chips and crypto stocks before Nvidia results. VIX 21: alert, far from panic (30). Stoxx 600 closed -0.3% near its record; SMI hit a record. Brent about $94, gold near a one-year low, 10-year 5.14%."
  },
- "brief": "US stocks still down about 1% (Nasdaq -1.6%) as chips and crypto slide before Nvidia results Tuesday night; Fed Chair Warsh said nothing on rates. Today: sell CBRS if the stop did not fill, check the GOOGL $288 order, and no L3Harris buy (now mixed, not mood).",
+ "brief": "US stocks down about 1.3% (Nasdaq -1.8%) as chips and crypto slide before Nvidia results Tuesday night; Europe closed flat. Today: Richemont is now a BUY (limit CHF 170 for Tuesday), sell CBRS if the stop did not fill, and check the GOOGL $288 order.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,475",
-   "change": -1.15
+   "value": "7,463",
+   "change": -1.31
   },
   {
    "name": "Stoxx 600",
-   "value": "663",
-   "change": -0.16
+   "value": "662",
+   "change": -0.28
   },
   {
    "name": "VIX (fear)",
-   "value": "20.9",
-   "change": 8.3,
+   "value": "21.1",
+   "change": 9.08,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,859",
-   "change": -0.69
+   "value": "$3,870",
+   "change": -0.41
   },
   {
    "name": "Brent",
@@ -98,6 +98,12 @@
     "time": "",
     "text": "L3Harris changed from mood to mixed: no $255 buy order this week",
     "done": false
+   },
+   {
+    "id": "cfr1",
+    "time": "22:30",
+    "text": "Richemont is now BUY: place a limit BUY 2 CFR at CHF 170 for Tue (SIX or ADR CFRUY), max CHF 175",
+    "done": false
    }
   ]
  },
@@ -109,6 +115,14 @@
    "name": "S&P 500 ETF (SPYM)",
    "trigger": "BUY 6 with a limit at $89 (Fri close $88.77). Can be placed now. Then 6 more each week while below $91.",
    "story": "The 500 biggest US companies for 0.02% a year. 3.5% below its high after a -3% month."
+  },
+  {
+   "ticker": "CFR",
+   "call": "buy",
+   "why": "mixed",
+   "name": "Richemont (Cartier) · Zurich",
+   "trigger": "BUY 2 with a limit at CHF 170 for Tue Nov 17 (can be placed tonight). Mon close CHF 173.95. Keep until Fri Nov 27; never pay above CHF 175.",
+   "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 206."
   },
   {
    "ticker": "NVDA",
@@ -141,14 +155,6 @@
    "name": "Cisco",
    "trigger": "BUY Tue Nov 17 with a limit at $96 only if CSCO closes Monday above $94. Fri close $95.64.",
    "story": "Sales +24% and forecast raised, but gross margin fell to 65.6%. Part real, part mood."
-  },
-  {
-   "ticker": "CFR",
-   "call": "wait",
-   "why": "mixed",
-   "name": "Richemont (Cartier) · Zurich",
-   "trigger": "BUY 2 Tue Nov 17 with a limit at CHF 170, only if CFR closes Mon above CHF 165. Now about CHF 175.",
-   "story": "Net profit +39%, keeps taking share. Q2 growth slowed to +13%. JPMorgan, Deutsche Bank, Bernstein back it."
   },
   {
    "ticker": "GOOGL",
@@ -213,6 +219,14 @@
    "name": "ServiceNow",
    "trigger": "WATCH. Reconsider only if NOW closes above $105.12 and holds there through Fri Nov 20.",
    "story": "Sales still +20%, but margins fell and estimates are cut. 42% below its high."
+  },
+  {
+   "ticker": "DELL",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Dell",
+   "trigger": "WATCH. No buy before results Tue Nov 24. Reconsider Fri Nov 27 only if DELL holds above $320 after them.",
+   "story": "Revenue +58% and outlook raised, but memory shortages threaten margins and analysts are cutting. Mixed, not mood."
   },
   {
    "ticker": "MRNA",
