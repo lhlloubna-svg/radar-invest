@@ -1,22 +1,22 @@
 {
- "updatedAt": "2026-11-16T14:51:38Z",
- "updatedLabel": "Mon 16 Nov, 18:49 Dubai",
+ "updatedAt": "2026-11-16T15:51:33Z",
+ "updatedLabel": "Mon 16 Nov, 19:50 Dubai",
  "regime": {
   "score": 36,
   "label": "Cautious, no panic",
-  "summary": "US futures lower (S&P -0.6%, Nasdaq -1.3%) as chips sell before Nvidia's results and the Anthropic IPO. VIX about 20.5: alert, far from panic. Stoxx 600 flat near its record. New York factory survey fell to 7.8 (about 18 expected)."
+  "summary": "US stocks lower as chips sell before Nvidia's results and the Anthropic IPO. VIX about 20.5: alert, far from panic. Stoxx 600 flat near its record. Gold near a one-year low, 10-year about 5.13%. New York factory survey fell to 7.8 (about 18 expected)."
  },
- "brief": "US stocks open lower (S&P about -0.9%) as chips and crypto fall before Nvidia's results Tuesday night. Today: limit BUY 4 Fortinet at $125; lab NVO only if clearly above $42.00 (it hovers at $41.94-42.06); no rocket today.",
+ "brief": "US stocks down about 1% as chips slide before Nvidia's results Tuesday night (TSMC -6%, Cerebras -10%). Today: sell Cerebras (stop broken), Novo lab trade moved to WAIT, and check whether the Alphabet $288 order filled.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,498",
-   "change": -0.85
+   "value": "7,462",
+   "change": -1.08
   },
   {
    "name": "Stoxx 600",
-   "value": "665",
-   "change": 0.1
+   "value": "664",
+   "change": 0
   },
   {
    "name": "VIX (fear)",
@@ -26,13 +26,13 @@
   },
   {
    "name": "Gold",
-   "value": "$3,878",
-   "change": -0.17
+   "value": "$3,869",
+   "change": -0.45
   },
   {
    "name": "Brent",
-   "value": "$95.49",
-   "change": -0.37
+   "value": "$94.00",
+   "change": null
   },
   {
    "name": "US 10y",
@@ -43,7 +43,7 @@
  ],
  "todo": {
   "date": "2026-11-16",
-  "focus": "Cowboy lab starts. Max $40 loss per trade.",
+  "focus": "Cowboy lab starts.",
   "items": [
    {
     "id": "c",
@@ -58,36 +58,44 @@
     "done": false
    },
    {
-    "id": "f1",
+    "id": "f2",
     "time": "",
-    "text": "Fortinet: place limit BUY 4 FTNT at $125 (valid to Fri). Can be placed now",
+    "text": "Fortinet is now WAIT: if the $125 order was placed, cancel it",
+    "done": false
+   },
+   {
+    "id": "s1",
+    "time": "",
+    "text": "SELL CBRS: the $100 stop is broken (about $97.92 at 10:25 ET). Check the live price first",
+    "done": false
+   },
+   {
+    "id": "s2",
+    "time": "19:55",
+    "text": "NVO changed to WAIT: no buy before 21:00 Dubai, only if $42.60-42.95 after. Cancel any order now",
+    "done": false
+   },
+   {
+    "id": "s3",
+    "time": "",
+    "text": "Check whether the GOOGL $288 limit filled (traded about $286 today)",
+    "done": false
+   },
+   {
+    "id": "s4",
+    "time": "",
+    "text": "Infineon changed from mood to mixed. Order plan unchanged: still WAIT until Wed",
     "done": false
    }
   ]
  },
  "cards": [
   {
-   "ticker": "FTNT",
-   "call": "buy",
-   "why": "mood",
-   "name": "Fortinet",
-   "trigger": "BUY 4 FTNT with a limit at $125 (Fri close $127.22). Can be placed now. Valid until Fri Nov 20.",
-   "story": "Sales +20%, billings +29%, billings guidance raised a third time. Down 33% in a month on AI fears around software."
-  },
-  {
-   "ticker": "NVO",
-   "call": "buy",
-   "why": "lab",
-   "name": "Novo Nordisk (lab swing)",
-   "trigger": "After 19:00 Dubai: BUY 23 at max $42.95, only if clearly above $42.00. Stop $41.90, target $45.20, up to 3 days. No entry after 20:30.",
-   "story": "CagriSema data from early November, so the push is modest. Price hovers right at the $42 floor: skip if not clearly above."
-  },
-  {
    "ticker": "SPYM",
    "call": "buy",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "BUY 6 with a limit at $89 (Fri close $88.77). Then 6 more each week while below $91.",
+   "trigger": "BUY 6 with a limit at $89 (Fri close $88.77). Can be placed now. Then 6 more each week while below $91.",
    "story": "The 500 biggest US companies for 0.02% a year. 3.5% below its high after a -3% month."
   },
   {
@@ -97,6 +105,22 @@
    "name": "EVENT: Nvidia results Tue (call 02:00 Dubai Wed)",
    "trigger": "HOLD. No new AI buy before the numbers. Act Wed after 19:00 Dubai using the playbook.",
    "story": "Options price a move of about 9.6%. First report since the CEO resigned; the risk is the reaction, not the numbers."
+  },
+  {
+   "ticker": "NVO",
+   "call": "wait",
+   "why": "lab",
+   "name": "Novo Nordisk (lab swing)",
+   "trigger": "WAIT. No buy before the Fed speaker at 21:00 Dubai. After that, BUY only if NVO trades $42.60-42.95; skip if not by 22:00 Dubai.",
+   "story": "CagriSema data from early November, so the push is modest. Price sits just under the $42 floor."
+  },
+  {
+   "ticker": "FTNT",
+   "call": "wait",
+   "why": "mixed",
+   "name": "Fortinet",
+   "trigger": "WAIT. Do not place the $125 order (cancel it if placed). Reconsider after the Q4 report (early Feb 2027) if service growth is back above 15%.",
+   "story": "Not a mood drop: service revenue grew only about 13% and its guide was cut, while the firewall refresh cycle fades."
   },
   {
    "ticker": "CSCO",
@@ -111,7 +135,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Richemont (Cartier) · Zurich",
-   "trigger": "BUY 2 Tue Nov 17 with a limit at CHF 170, only if CFR closes Mon above CHF 165. Now about CHF 174.",
+   "trigger": "BUY 2 Tue Nov 17 with a limit at CHF 170, only if CFR closes Mon above CHF 165. Now about CHF 175.",
    "story": "Net profit +39%, keeps taking share. Q2 growth slowed to +13%. JPMorgan, Deutsche Bank, Bernstein back it."
   },
   {
@@ -119,7 +143,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Alphabet",
-   "trigger": "BUY 1 with a limit at $288 (Fri close $295.77). Valid until Fri Nov 20.",
+   "trigger": "The $288 limit may have filled today (about $286 at 10:23 ET). If not filled, it stays valid until Fri Nov 20.",
    "story": "Cloud sales doubled; 28% below its high. Also benefits from the Anthropic IPO."
   },
   {
@@ -127,16 +151,16 @@
    "call": "wait",
    "why": "mood",
    "name": "TSMC",
-   "trigger": "From Wed Nov 18: BUY 1 with a limit at $395 if TSM holds above $385.",
+   "trigger": "Now about $373, under the $385 floor. From Wed Nov 18: BUY 1 at a $395 limit only if TSM closes back above $385 first.",
    "story": "October sales +59.7%. The drop is chip-sector mood, not TSMC news."
   },
   {
    "ticker": "IFX",
    "call": "wait",
-   "why": "mood",
+   "why": "mixed",
    "name": "Infineon · Xetra",
-   "trigger": "From Wed Nov 18: BUY 10 with a limit at EUR 48.50 if IFX holds above EUR 46. Now about EUR 49.",
-   "story": "Guides next year +22% on data-center power chips; 45% below its high."
+   "trigger": "From Wed Nov 18: BUY 10 with a limit at EUR 48.50 if IFX holds above EUR 46. Now about EUR 48.90.",
+   "story": "Guides next year +22% on data-center power chips; 45% below its high. Growth leans on one segment."
   },
   {
    "ticker": "ETN",
@@ -190,7 +214,7 @@
  "agenda": [
   {
    "date": "Mon 16",
-   "event": "Empire State survey 17:30; Fed Chair Warsh 21:00 Dubai"
+   "event": "Empire State survey 17:30; Fed's Williams 18:05; Fed Chair Warsh 21:00 Dubai"
   },
   {
    "date": "Tue 17",
@@ -198,7 +222,7 @@
   },
   {
    "date": "Wed 18",
-   "event": "Fed minutes 23:00; Target, Lowe's, TJX; Palo Alto after close. TSM, IFX orders active"
+   "event": "Fed minutes 23:00; Target, Lowe's, TJX; Palo Alto after close"
   },
   {
    "date": "Thu 19",
