@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-17T20:51:40Z",
- "updatedLabel": "Wed 18 Nov, 00:40 Dubai",
+ "updatedAt": "2026-11-17T21:51:23Z",
+ "updatedLabel": "Wed 18 Nov, 01:35 Dubai",
  "regime": {
   "score": 25,
   "label": "Fearful, no panic",
   "summary": "Tue 14:30 ET: S&P 500 -1.2% (7,327), Dow -1.6%, Nasdaq -1.1%, every sector down; VIX about 26. Stoxx 600 closed -1.75%, its worst day in eight months. A December Fed hike is about 95% priced. VIX under 30: no panic selling of long-term holdings."
  },
- "brief": "US stocks fall for a fourth day before Nvidia's results tonight (S&P 500 -1.2% at 14:30 ET, VIX near 26); Europe had its worst day in eight months. Today: no new buy; keep the CBRS $100 stop on the close and the Richemont CHF 170 limit, and act on Nvidia only Wed after 19:00 Dubai.",
+ "brief": "US stocks fell for a fourth day (S&P 500 -1.2%); Nvidia reports right now and today's closes are not yet confirmed. Tonight: check whether CBRS closed below its $100 stop (then sell Wed); act on Nvidia only Wed after 19:00 Dubai.",
  "pulse": [
   {
    "name": "S&P 500",
