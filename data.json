@@ -1,43 +1,43 @@
 {
- "updatedAt": "2026-11-17T14:51:58Z",
- "updatedLabel": "Tue 17 Nov, 19:25 Dubai",
+ "updatedAt": "2026-11-17T15:51:13Z",
+ "updatedLabel": "Tue 17 Nov, 19:50 Dubai",
  "regime": {
-  "score": 33,
+  "score": 32,
   "label": "Cautious, no panic",
-  "summary": "Mon: S&P 500 -1.9%, Nasdaq -2.5%, VIX closed 23.7. Tue: S&P futures about flat, Stoxx 600 -0.9% on new US chip curbs and a Deutsche Bank leak. Retail sales +0.2% as expected. 10-year 5.12%."
+  "summary": "Tue 10:26 ET: S&P 500 -0.5% (7,383), Nasdaq -0.3%, VIX 22.9, 10-year about 5.12%. Stoxx 600 -1.1% on US chip curbs and a Deutsche Bank leak. Money leaves software (Salesforce -7.5%, ServiceNow -5%). Retail sales +0.2% as expected."
  },
- "brief": "Markets are nervous but not in panic before Nvidia's results tonight (01:20 Dubai): S&P futures flat, VIX near 23. Today: sell CBRS if the stop did not trigger, keep the Richemont CHF 170 limit, no new AI, index or lab buy before Wednesday.",
+ "brief": "US stocks open slightly lower before Nvidia's results tonight (01:20 Dubai): S&P 500 -0.5%, VIX about 23, software sold hard (Salesforce -7.5%). Today: sell CBRS if the stop did not trigger, keep the Richemont CHF 170 limit, no new AI, index or lab buy before Wednesday.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,417",
-   "change": -1.92
+   "value": "7,383",
+   "change": -0.45
   },
   {
    "name": "Stoxx 600",
-   "value": "656",
-   "change": -0.9
+   "value": "655",
+   "change": -1.14
   },
   {
    "name": "VIX (fear)",
-   "value": "23.7",
-   "change": 22.9,
+   "value": "22.9",
+   "change": -3.7,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,852",
-   "change": -0.3
+   "value": "$3,858",
+   "change": 0.06
   },
   {
    "name": "Brent",
-   "value": "$92.44",
-   "change": 0.3
+   "value": "$92.33",
+   "change": -0.12
   },
   {
    "name": "US 10y",
    "value": "5.12%",
-   "change": -0.6,
+   "change": 0,
    "invert": true
   }
  ],
@@ -48,7 +48,7 @@
    {
     "id": "r1",
     "time": "12:00",
-    "text": "Richemont: limit BUY 2 CFR at CHF 170 (max CHF 175), SIX or ADR CFRUY",
+    "text": "Richemont: limit BUY 2 CFR at CHF 170 (now CHF 173.90), valid to Nov 27. SIX or ADR CFRUY",
     "done": false
    },
    {
@@ -72,7 +72,7 @@
    {
     "id": "s1",
     "time": "19:00",
-    "text": "CBRS: Mon low $97.80 broke the $100 stop. If the stop did not trigger, SELL 4 CBRS after 19:00",
+    "text": "CBRS: Mon low $97.80 broke the $100 stop. If the stop did not trigger, SELL 4 CBRS now (about $104)",
     "done": false
    },
    {
@@ -102,7 +102,7 @@
    {
     "id": "sc3",
     "time": "",
-    "text": "SPYM changed from BUY to WAIT: cancel the $89 order if placed. New plan: $87 limit from Wed",
+    "text": "SPYM is WAIT: cancel any $89 order. From Wed: limit at $87 or Tue close, whichever is lower",
     "done": false
    },
    {
@@ -114,7 +114,7 @@
    {
     "id": "eu2",
     "time": "",
-    "text": "ASML is EUR 1,281, under its 1,300 limit: still place nothing before Wednesday",
+    "text": "ASML: place nothing today. From Wed: limit EUR 1,270, only if above EUR 1,250 (now EUR 1,272.60)",
     "done": false
    }
   ]
@@ -125,7 +125,7 @@
    "call": "buy",
    "why": "mixed",
    "name": "Richemont (Cartier) · Zurich",
-   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Now about CHF 173.70. Keep the limit, do not chase; never pay above CHF 175.",
+   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Now about CHF 173.90. Keep the limit, do not chase; never pay above CHF 175.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -141,7 +141,7 @@
    "call": "wait",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "WAIT for Nvidia results. From Wed Nov 18: BUY 6 with a limit at $87.00 (Mon close $87.11), valid until Fri Nov 20. Then 6 more each week below $91.",
+   "trigger": "WAIT for Nvidia results. From Wed Nov 18: BUY 6 with a limit at $87.00 or Tuesday's close, whichever is lower, valid until Fri Nov 20. Then 6 more weekly below $91.",
    "story": "The 500 biggest US companies for 0.02% a year. 5% below its high after a -3% month."
   },
   {
@@ -157,7 +157,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "TSMC",
-   "trigger": "Mon close $373.45, under the $385 floor. From Wed Nov 18: BUY 1 at a $395 limit only if TSM closes back above $385 first.",
+   "trigger": "Now $363.48, under the $385 floor. From Wed Nov 18: BUY 1 at a $395 limit only if TSM closes back above $385 first.",
    "story": "October sales +59.7%. Mostly chip-sector mood, but TSMC is prudent on 2027 and new US chip rules touch it."
   },
   {
@@ -165,7 +165,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Infineon · Xetra",
-   "trigger": "From Wed Nov 18: BUY 10 with a limit at EUR 48.50 if IFX holds above EUR 46. Now about EUR 49.29.",
+   "trigger": "From Wed Nov 18: BUY 10 with a limit at EUR 48.50 if IFX holds above EUR 46. Now about EUR 48.69.",
    "story": "Guides next year +22% on data-center power chips; 45% below its high. Growth leans on one segment."
   },
   {
@@ -173,7 +173,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Eaton",
-   "trigger": "From Wed Nov 18: BUY 1 with a limit at $335, only if ETN holds above $327. Mon close $336.88.",
+   "trigger": "From Wed Nov 18: BUY 1 with a limit at $335, only if ETN holds above $327. Now $337.72.",
    "story": "Sales +28% (organic +19%), guidance raised, but debt doubled and data-center policy risk is real."
   },
   {
@@ -181,7 +181,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Global Payments",
-   "trigger": "BUY 6 with a limit at $86, valid until Fri Nov 20. Mon close $89.87.",
+   "trigger": "BUY 6 with a limit at $86, valid until Fri Nov 20. Now $88.73.",
    "story": "-12% when buyout talks ended: buyers could not finance a deal. Cheap at about 6.5x profit, so buy only lower."
   },
   {
@@ -189,7 +189,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Schneider Electric · Paris",
-   "trigger": "WAIT for a dip: BUY 2 with a limit at EUR 235 (now about EUR 240).",
+   "trigger": "WAIT for a dip: BUY 2 with a limit at EUR 235 (now about EUR 239.65).",
    "story": "Organic growth +17%, guidance raised. Fell on the PTC deal and a Middle East warning, not demand."
   },
   {
