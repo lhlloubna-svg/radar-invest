@@ -1,72 +1,78 @@
 {
- "updatedAt": "2026-11-17T21:51:23Z",
- "updatedLabel": "Wed 18 Nov, 01:35 Dubai",
+ "updatedAt": "2026-11-18T14:52:11Z",
+ "updatedLabel": "Wed 18 Nov, 18:45 Dubai",
  "regime": {
-  "score": 25,
+  "score": 35,
   "label": "Fearful, no panic",
-  "summary": "Tue 14:30 ET: S&P 500 -1.2% (7,327), Dow -1.6%, Nasdaq -1.1%, every sector down; VIX about 26. Stoxx 600 closed -1.75%, its worst day in eight months. A December Fed hike is about 95% priced. VIX under 30: no panic selling of long-term holdings."
+  "summary": "S&P 500 at a 5-month low (7,340.53 Tue) after 4 down days; futures up a little after Nvidia. VIX about 24.7 pre-open. 10-year yield 5.10%, a Dec 9 hike mostly priced. VIX under 30: never sell long-term holdings."
  },
- "brief": "US stocks fell for a fourth day (S&P 500 -1.2%); Nvidia reports right now and today's closes are not yet confirmed. Tonight: check whether CBRS closed below its $100 stop (then sell Wed); act on Nvidia only Wed after 19:00 Dubai.",
+ "brief": "Nvidia's beat gives a small relief bounce after 4 down days, with the Fed minutes at 23:00 Dubai. No lab trade and no rocket today: the red team rejected all 4 candidates; keep the limit orders for SPYM, Eaton and Richemont.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,327",
-   "change": -1.21
+   "value": "7,341",
+   "change": -1.03
   },
   {
    "name": "Stoxx 600",
    "value": "651",
-   "change": -1.75
+   "change": 0.1
   },
   {
    "name": "VIX (fear)",
-   "value": "26.0",
-   "change": 13.3,
+   "value": "24.7",
+   "change": -2.9,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,856",
-   "change": 0.08
+   "value": "$3,771",
+   "change": -2.0
   },
   {
    "name": "Brent",
-   "value": "$93.51",
-   "change": 1.16
+   "value": "$92.74",
+   "change": -0.43
   },
   {
    "name": "US 10y",
    "value": "5.10%",
-   "change": -0.35,
+   "change": -0.5,
    "invert": true
   }
  ],
  "todo": {
   "date": "2026-11-18",
-  "focus": "Day after Nvidia + Anthropic prices tonight. Read, then act.",
+  "focus": "Nvidia beat. Place 3 limit buys, cancel GPN, hold the rest.",
   "items": [
    {
-    "id": "a",
-    "time": "18:15",
-    "text": "Nvidia: check its move after the results, then follow the plan on its card",
-    "done": false
-   },
-   {
-    "id": "r4",
+    "id": "x1",
     "time": "12:00",
-    "text": "Infineon: BUY 10 IFX at EUR 48.50 max if above EUR 46",
+    "text": "Infineon is WAIT: if the EUR 48.50 order was placed, cancel it",
     "done": false
    },
    {
-    "id": "r3",
-    "time": "19:00",
-    "text": "TSMC: BUY 1 TSM only if it closes above $385; limit at that close or $395, if lower",
+    "id": "sp1",
+    "time": "13:30",
+    "text": "SPYM: limit BUY 6 at $86.22, valid to Fri Nov 20. Cancel any older $89 order",
     "done": false
    },
    {
     "id": "e1",
-    "time": "19:00",
-    "text": "Eaton: BUY 1 ETN, limit $335 or Tue close if lower, only if ETN is above $327 after Nvidia",
+    "time": "13:30",
+    "text": "Eaton: limit BUY 1 ETN at $335, valid to Fri Nov 20 (can place now). Cancel if it closes below $327",
+    "done": false
+   },
+   {
+    "id": "a",
+    "time": "18:15",
+    "text": "Nvidia beat and raised: HOLD, no add. Read the deep-dive on its card",
+    "done": false
+   },
+   {
+    "id": "nl1",
+    "time": "18:15",
+    "text": "No lab trade and no rocket today: the red team rejected all 4. Do not chase the Nvidia bounce",
     "done": false
    }
   ]
@@ -77,122 +83,118 @@
    "call": "buy",
    "why": "mixed",
    "name": "Richemont (Cartier) \u00b7 Zurich",
-   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Closed about CHF 172.95 Tue. Keep the limit, do not chase. SIX, or ADR CFRUY.",
+   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Last CHF 173.35 Wed. Keep the limit, do not chase above CHF 175. SIX, or ADR CFRUY.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
+  },
+  {
+   "ticker": "ETN",
+   "call": "buy",
+   "why": "mixed",
+   "name": "Eaton",
+   "trigger": "BUY 1 with a limit at $335, valid until Fri Nov 20. Cancel it if ETN closes below $327. Can be placed in advance. Tue close $337.11.",
+   "story": "Sales +28% (organic +19%), guidance raised. About 14% down in a month on Texas data-center policy and AI fears."
+  },
+  {
+   "ticker": "SPYM",
+   "call": "buy",
+   "why": "core",
+   "name": "S&P 500 ETF (SPYM)",
+   "trigger": "BUY 6 with a limit at $86.22 (Tue close), valid until Fri Nov 20. Cancel any older $89 order. Then 6 more each week while below $91.",
+   "story": "The 500 biggest US companies for 0.02% a year. About 6% below its 6-month high after a -4% month."
   },
   {
    "ticker": "NVDA",
    "call": "hold",
    "why": "event",
-   "name": "EVENT: Nvidia results Tue (call 02:00 Dubai Wed)",
-   "trigger": "HOLD. No new AI buy before the numbers. Act Wed after 19:00 Dubai using the playbook. Never decide in the first 30 minutes.",
-   "story": "A big move is the most likely outcome; only its direction is unknown. The risk is the reaction: high expectations, new CEO, guidance."
-  },
-  {
-   "ticker": "SPYM",
-   "call": "wait",
-   "why": "core",
-   "name": "S&P 500 ETF (SPYM)",
-   "trigger": "WAIT for Nvidia results. From Wed Nov 18: BUY 6 with a limit at $87.00 or Tuesday's close, whichever is lower, valid until Fri Nov 20. Then 6 more weekly below $91.",
-   "story": "The 500 biggest US companies for 0.02% a year. 3.5% below its high after a -3% month."
+   "name": "EVENT: Nvidia beat and guided $130B",
+   "trigger": "HOLD. No add. Earliest review of an add: Fri Nov 20 close (2-session rule), and only if it holds above $160.",
+   "story": "Revenue $115.8B (+103%), but the stock gave back its after-hours jump. Weak spots: lower margin guide, slower cash collection."
   },
   {
    "ticker": "GOOGL",
    "call": "wait",
    "why": "mixed",
    "name": "Alphabet",
-   "trigger": "The $288 limit likely filled Monday (closed $283.72). If not filled, it stays valid until Fri Nov 20.",
-   "story": "Cloud sales doubled (+103%) and search still grew 12%. Fell 12.6% on Oct 29, partly from a one-off investment loss."
-  },
-  {
-   "ticker": "TSM",
-   "call": "wait",
-   "why": "mixed",
-   "name": "TSMC",
-   "trigger": "About $360.54 Tue, under the $385 floor. From Wed Nov 18: BUY 1 only if TSM closes above $385, limit at that close or $395, whichever is lower.",
-   "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
+   "trigger": "The $288 limit likely filled: GOOGL traded below $288 Mon and Tue (closed $280.20). No second slice for now: WAIT.",
+   "story": "Cloud sales doubled (+103%) and search still grew 12%. 31% below its high on heavy AI spending worries."
   },
   {
    "ticker": "IFX",
    "call": "wait",
    "why": "mixed",
    "name": "Infineon \u00b7 Xetra",
-   "trigger": "From Wed Nov 18: BUY 10 with a limit at EUR 48.50 if IFX holds above EUR 46. Closed EUR 48.69 Tue. ASML: no order while under EUR 1,250.",
-   "story": "Guides next year +22% on data-center power chips. Growth leans on one segment and the cash flow guide was soft."
+   "trigger": "WAIT. Cancel the EUR 48.50 limit if placed. Reconsider Fri Nov 27 only if IFX closed above EUR 46 every day and no new US chip rule hits Europe.",
+   "story": "Guides next year +22% on data-center power chips, but the cash flow guide is about 20% below forecasts and Q1 is guided lower."
   },
   {
-   "ticker": "ETN",
+   "ticker": "EXPN",
    "call": "wait",
    "why": "mixed",
-   "name": "Eaton",
-   "trigger": "From Wed Nov 18: BUY 1 with a limit at $335 or Tuesday's close, whichever is lower, only if ETN holds above $327. Now $334.63.",
-   "story": "Sales +28% (organic +19%), guidance raised, but debt doubled and data-center policy risk is real."
-  },
-  {
-   "ticker": "GPN",
-   "call": "wait",
-   "why": "mixed",
-   "name": "Global Payments",
-   "trigger": "BUY 6 with a limit at $86, valid until Fri Nov 20. Now $87.27 (Tue 14:12 ET).",
-   "story": "-12% when buyout talks ended: buyers could not finance a deal. Cheap at about 6.5x profit, so buy only lower."
+   "name": "Experian \u00b7 London",
+   "trigger": "WAIT. Reconsider after Fri Nov 20 close: BUY up to 12 shares at or below that close, only if above 2,800p and no target cuts.",
+   "story": "EPS +15% and an extra $500M buyback, but the top of its growth guide was cut. 16.5% below its January high."
   },
   {
    "ticker": "SU",
    "call": "wait",
    "why": "mixed",
    "name": "Schneider Electric \u00b7 Paris",
-   "trigger": "WAIT for a dip: BUY 2 with a limit at EUR 235 (closed EUR 236.60 Tue). Paris hours 12:00-20:30 Dubai, or US OTC SBGSY.",
+   "trigger": "WAIT: BUY 2 only with a limit at EUR 235 (last about EUR 240.40 Wed), valid until Fri Nov 27. Paris hours 12:00-20:30 Dubai, or US OTC SBGSY.",
    "story": "Organic growth +17%, guidance raised. Fell on the PTC deal and a Middle East warning, not demand."
   },
   {
-   "ticker": "DBK",
-   "call": "watch",
+   "ticker": "TSM",
+   "call": "wait",
    "why": "mixed",
-   "name": "Deutsche Bank",
-   "trigger": "WATCH only. No buy before Mon Nov 23. Then reconsider only if no regulator (BaFin, ECB, DOJ) opens a new probe.",
-   "story": "About -5% after a leak of 15 million old files. Profits untouched, but fines or probes could follow."
-  },
-  {
-   "ticker": "IDR",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Indra \u00b7 Madrid",
-   "trigger": "WATCH. No buy before Indra's strategic plan on Wed Nov 25. Reconsider only if no charge is filed and no contract is reopened. Now EUR 54.00.",
-   "story": "-6.4% on a probe into Spanish defence contracts. Revenue +29%, backlog about EUR 22bn, but the probe is still open."
-  },
-  {
-   "ticker": "RMS",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Luxury selloff: Hermes, Kering, Moncler",
-   "trigger": "WATCH. No buy on Hermes, Kering or Moncler. Hermes: only if China sales stop falling (Feb 2027). Kering: only if Gucci stops shrinking.",
-   "story": "Hermes -5.1%, Moncler about -4.5%, Kering -3.5% Tue. Hermes still about 29x profit for about 10% growth."
-  },
-  {
-   "ticker": "MU",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Micron (memory chips)",
-   "trigger": "WATCH. No buy: AI-chip theme. Reconsider only after Nvidia's results and Micron's own report (about Dec 16).",
-   "story": "About -20% in a month. Next quarter guided $61.5B, but price rises will slow and a DRAM price-fixing lawsuit goes ahead."
+   "name": "TSMC",
+   "trigger": "WAIT. Closed $359.69 Tue, about $376 pre-market after Nvidia. BUY 1 only after a close above $385, limit at that close or $395, whichever is lower.",
+   "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
    "ticker": "CRM",
    "call": "watch",
    "why": "mixed",
    "name": "Software AI fear: Salesforce, SAP",
-   "trigger": "WATCH. No buy before Salesforce results Wed Dec 2. From Fri Dec 4: reconsider 2 CRM below $215 if organic growth holds and no guide is cut.",
+   "trigger": "WATCH. No buy before Salesforce results Wed Dec 2. From Fri Dec 4: reconsider 2 CRM at or below that close if organic growth holds and no guide is cut.",
    "story": "Salesforce about -8%, SAP -5.6%, Dassault -4.9% Tue. Without acquisitions Salesforce grows only about 6-7%."
+  },
+  {
+   "ticker": "UNH",
+   "call": "watch",
+   "why": "mixed",
+   "name": "UnitedHealth",
+   "trigger": "WATCH. No buy: the drop comes from a new rule that can cut payments. Reconsider after the comment period ends (Jan 19, 2027).",
+   "story": "About -5% on a proposed Medicare audit rule reaching back to 2018. The business was improving, but clawbacks are a real risk."
+  },
+  {
+   "ticker": "LOW",
+   "call": "avoid",
+   "why": "business",
+   "name": "Lowe's",
+   "trigger": "AVOID. Reconsider only after a quarter where profit grows without tariff refunds and comps beat +3%.",
+   "story": "Down 2-4% pre-market: the beat leaned on tariff refunds and acquisitions, and the margin guide was cut."
+  },
+  {
+   "ticker": "NKE",
+   "call": "avoid",
+   "why": "business",
+   "name": "Nike",
+   "trigger": "AVOID. Sales are still shrinking. Reconsider only after a quarter with sales growth.",
+   "story": "-6.3% after its investor day pushed the recovery out. Sales fell 5% and free cash flow did not cover the dividend."
+  },
+  {
+   "ticker": "PRX",
+   "call": "avoid",
+   "why": "business",
+   "name": "Prosus \u00b7 Amsterdam",
+   "trigger": "AVOID. No buy before its H1 results on Wed Nov 25; reconsider only if Tencent's profit grows again.",
+   "story": "-5% to -7% on Tencent's Q3 revenue miss. Tencent is about 73% of its assets and its profit is falling on AI spending."
   }
  ],
  "agenda": [
   {
-   "date": "Tue 17",
-   "event": "US retail sales 17:30; Home Depot, Disney; Alstom H1 21:00; Nvidia after close (call 02:00 Wed)"
-  },
-  {
    "date": "Wed 18",
-   "event": "Fed minutes 23:00; Target, Lowe's, TJX; Palo Alto after close"
+   "event": "Target, Lowe's, TJX; US housing starts 17:30; Fed minutes 23:00; Palo Alto after close; Anthropic prices its IPO"
   },
   {
    "date": "Thu 19",
