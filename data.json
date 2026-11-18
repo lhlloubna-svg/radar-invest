@@ -1,27 +1,27 @@
 {
- "updatedAt": "2026-11-18T14:52:11Z",
- "updatedLabel": "Wed 18 Nov, 18:45 Dubai",
+ "updatedAt": "2026-11-18T15:50:54Z",
+ "updatedLabel": "Wed 18 Nov, 19:25 Dubai",
  "regime": {
   "score": 35,
   "label": "Fearful, no panic",
   "summary": "S&P 500 at a 5-month low (7,340.53 Tue) after 4 down days; futures up a little after Nvidia. VIX about 24.7 pre-open. 10-year yield 5.10%, a Dec 9 hike mostly priced. VIX under 30: never sell long-term holdings."
  },
- "brief": "Nvidia's beat gives a small relief bounce after 4 down days, with the Fed minutes at 23:00 Dubai. No lab trade and no rocket today: the red team rejected all 4 candidates; keep the limit orders for SPYM, Eaton and Richemont.",
+ "brief": "Nvidia's bounce faded at the open and the S&P 500 is flat, with the Fed minutes at 23:00 Dubai. The SPYM and Eaton limits likely filled; Cerebras is under its $100 stop, so sell near the close if it stays there.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,341",
-   "change": -1.03
+   "value": "7,334",
+   "change": -0.08
   },
   {
    "name": "Stoxx 600",
-   "value": "651",
-   "change": 0.1
+   "value": "647",
+   "change": -0.52
   },
   {
    "name": "VIX (fear)",
-   "value": "24.7",
-   "change": -2.9,
+   "value": "24.6",
+   "change": -3.5,
    "invert": true
   },
   {
@@ -31,13 +31,13 @@
   },
   {
    "name": "Brent",
-   "value": "$92.74",
-   "change": -0.43
+   "value": "$91.88",
+   "change": -1.19
   },
   {
    "name": "US 10y",
-   "value": "5.10%",
-   "change": -0.5,
+   "value": "5.09%",
+   "change": -0.4,
    "invert": true
   }
  ],
@@ -53,14 +53,14 @@
    },
    {
     "id": "sp1",
-    "time": "13:30",
-    "text": "SPYM: limit BUY 6 at $86.22, valid to Fri Nov 20. Cancel any older $89 order",
+    "time": "19:30",
+    "text": "SPYM: the $86.22 limit likely filled (low $85.76). Check the fill",
     "done": false
    },
    {
     "id": "e1",
-    "time": "13:30",
-    "text": "Eaton: limit BUY 1 ETN at $335, valid to Fri Nov 20 (can place now). Cancel if it closes below $327",
+    "time": "19:30",
+    "text": "Eaton: the $335 limit likely filled (low $332.42). Check the fill",
     "done": false
    },
    {
@@ -74,6 +74,12 @@
     "time": "18:15",
     "text": "No lab trade and no rocket today: the red team rejected all 4. Do not chase the Nvidia bounce",
     "done": false
+   },
+   {
+    "id": "cb1",
+    "time": "00:30",
+    "text": "Cerebras (CBRS) is $98.83, under the $100 stop. If still below $100 at 00:30 Dubai, sell",
+    "done": false
    }
   ]
  },
@@ -83,7 +89,7 @@
    "call": "buy",
    "why": "mixed",
    "name": "Richemont (Cartier) \u00b7 Zurich",
-   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Last CHF 173.35 Wed. Keep the limit, do not chase above CHF 175. SIX, or ADR CFRUY.",
+   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Last CHF 173.90 Wed. Keep the limit, do not chase above CHF 175. SIX, or ADR CFRUY.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -91,7 +97,7 @@
    "call": "buy",
    "why": "mixed",
    "name": "Eaton",
-   "trigger": "BUY 1 with a limit at $335, valid until Fri Nov 20. Cancel it if ETN closes below $327. Can be placed in advance. Tue close $337.11.",
+   "trigger": "The $335 limit likely filled (low $332.42 Wed). If not filled, keep it until Fri Nov 20; cancel if ETN closes below $327.",
    "story": "Sales +28% (organic +19%), guidance raised. About 14% down in a month on Texas data-center policy and AI fears."
   },
   {
@@ -99,8 +105,8 @@
    "call": "buy",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "BUY 6 with a limit at $86.22 (Tue close), valid until Fri Nov 20. Cancel any older $89 order. Then 6 more each week while below $91.",
-   "story": "The 500 biggest US companies for 0.02% a year. About 6% below its 6-month high after a -4% month."
+   "trigger": "The $86.22 limit likely filled (low $85.76 Wed). Then BUY 6 more each week while below $91.",
+   "story": "The 500 biggest US companies for 0.02% a year. About 3.5% below its high after a -3% month."
   },
   {
    "ticker": "NVDA",
@@ -115,7 +121,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Alphabet",
-   "trigger": "The $288 limit likely filled: GOOGL traded below $288 Mon and Tue (closed $280.20). No second slice for now: WAIT.",
+   "trigger": "The $288 limit filled: GOOGL traded below $288 Mon and Tue. No second slice for now: WAIT.",
    "story": "Cloud sales doubled (+103%) and search still grew 12%. 31% below its high on heavy AI spending worries."
   },
   {
@@ -139,7 +145,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Schneider Electric \u00b7 Paris",
-   "trigger": "WAIT: BUY 2 only with a limit at EUR 235 (last about EUR 240.40 Wed), valid until Fri Nov 27. Paris hours 12:00-20:30 Dubai, or US OTC SBGSY.",
+   "trigger": "WAIT: BUY 2 only with a limit at EUR 235 (last about EUR 240.60 Wed), valid until Fri Nov 27. Paris hours 12:00-20:30 Dubai, or US OTC SBGSY.",
    "story": "Organic growth +17%, guidance raised. Fell on the PTC deal and a Middle East warning, not demand."
   },
   {
