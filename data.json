@@ -1,43 +1,43 @@
 {
- "updatedAt": "2026-11-18T15:50:54Z",
- "updatedLabel": "Wed 18 Nov, 19:25 Dubai",
+ "updatedAt": "2026-11-18T17:51:20Z",
+ "updatedLabel": "Wed 18 Nov, 21:12 Dubai",
  "regime": {
-  "score": 35,
+  "score": 33,
   "label": "Fearful, no panic",
-  "summary": "S&P 500 at a 5-month low (7,340.53 Tue) after 4 down days; futures up a little after Nvidia. VIX about 24.7 pre-open. 10-year yield 5.10%, a Dec 9 hike mostly priced. VIX under 30: never sell long-term holdings."
+  "summary": "S&P 500 about 7,300 (-0.55% Wed), near a 5-month low after 4 down days. VIX about 24.6. 10-year yield 5.08%, a Dec 9 hike mostly priced. VIX under 30: never sell long-term holdings."
  },
- "brief": "Nvidia's bounce faded at the open and the S&P 500 is flat, with the Fed minutes at 23:00 Dubai. The SPYM and Eaton limits likely filled; Cerebras is under its $100 stop, so sell near the close if it stays there.",
+ "brief": "Stocks slipped after Nvidia's beat faded (S&P 500 -0.55%, Nvidia -2.8%), with the Fed minutes at 23:00 Dubai. Cerebras is about $95, under its $100 stop: sell at 00:30 Dubai if it stays there. Check the SPYM and Eaton fills.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,334",
-   "change": -0.08
+   "value": "7,300",
+   "change": -0.55
   },
   {
    "name": "Stoxx 600",
-   "value": "647",
-   "change": -0.52
+   "value": "644",
+   "change": -1.02
   },
   {
    "name": "VIX (fear)",
    "value": "24.6",
-   "change": -3.5,
+   "change": -3.26,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,771",
-   "change": -2.0
+   "value": "$3,746",
+   "change": -2.67
   },
   {
    "name": "Brent",
-   "value": "$91.88",
-   "change": -1.19
+   "value": "$89.24",
+   "change": -1.25
   },
   {
    "name": "US 10y",
-   "value": "5.09%",
-   "change": -0.4,
+   "value": "5.08%",
+   "change": -0.6,
    "invert": true
   }
  ],
@@ -78,7 +78,7 @@
    {
     "id": "cb1",
     "time": "00:30",
-    "text": "Cerebras (CBRS) is $98.83, under the $100 stop. If still below $100 at 00:30 Dubai, sell",
+    "text": "Cerebras (CBRS) is $95.34, under the $100 stop. If still below $100 at 00:30 Dubai, sell",
     "done": false
    }
   ]
@@ -89,7 +89,7 @@
    "call": "buy",
    "why": "mixed",
    "name": "Richemont (Cartier) \u00b7 Zurich",
-   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Last CHF 173.90 Wed. Keep the limit, do not chase above CHF 175. SIX, or ADR CFRUY.",
+   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Closed CHF 175.45 Wed (low 172.00): not filled. Keep the limit, do not chase. SIX, or ADR CFRUY.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -173,12 +173,12 @@
    "story": "About -5% on a proposed Medicare audit rule reaching back to 2018. The business was improving, but clawbacks are a real risk."
   },
   {
-   "ticker": "LOW",
-   "call": "avoid",
-   "why": "business",
-   "name": "Lowe's",
-   "trigger": "AVOID. Reconsider only after a quarter where profit grows without tariff refunds and comps beat +3%.",
-   "story": "Down 2-4% pre-market: the beat leaned on tariff refunds and acquisitions, and the margin guide was cut."
+   "ticker": "TTWO",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Take-Two (GTA VI)",
+   "trigger": "WATCH. No buy into the GTA VI launch (Thu Nov 19). Reconsider after the first sales update, only if TTWO is still below $220.",
+   "story": "About $216.67 after a 99 review score, but last quarter net bookings fell 18% and player spending fell 9%."
   },
   {
    "ticker": "NKE",
