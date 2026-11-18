@@ -1,84 +1,54 @@
 {
- "updatedAt": "2026-11-18T17:51:20Z",
- "updatedLabel": "Wed 18 Nov, 21:12 Dubai",
+ "updatedAt": "2026-11-18T20:52:16Z",
+ "updatedLabel": "Thu 19 Nov, 00:30 Dubai",
  "regime": {
-  "score": 33,
+  "score": 32,
   "label": "Fearful, no panic",
-  "summary": "S&P 500 about 7,300 (-0.55% Wed), near a 5-month low after 4 down days. VIX about 24.6. 10-year yield 5.08%, a Dec 9 hike mostly priced. VIX under 30: never sell long-term holdings."
+  "summary": "S&P 500 about 7,315 (-0.3% Wed), near its lowest close since July. VIX about 24.5. 10-year 5.07%. Fed minutes: almost all officials see more hikes. VIX under 30: never sell long-term holdings."
  },
- "brief": "Stocks slipped after Nvidia's beat faded (S&P 500 -0.55%, Nvidia -2.8%), with the Fed minutes at 23:00 Dubai. Cerebras is about $95, under its $100 stop: sell at 00:30 Dubai if it stays there. Check the SPYM and Eaton fills.",
+ "brief": "Stocks gave back early gains after hawkish Fed minutes (S&P 500 -0.3%, VIX about 24.5). Cerebras is $93.51, under its $100 stop: sell at 00:30 Dubai if still below $100. No new buy, no lab trade.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,300",
-   "change": -0.55
+   "value": "7,315",
+   "change": -0.34
   },
   {
    "name": "Stoxx 600",
    "value": "644",
-   "change": -1.02
+   "change": -1.03
   },
   {
    "name": "VIX (fear)",
-   "value": "24.6",
-   "change": -3.26,
+   "value": "24.5",
+   "change": -3.7,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,746",
-   "change": -2.67
+   "value": "$3,728",
+   "change": -3.54
   },
   {
    "name": "Brent",
-   "value": "$89.24",
-   "change": -1.25
+   "value": "$91.60",
+   "change": -1.7
   },
   {
    "name": "US 10y",
-   "value": "5.08%",
+   "value": "5.07%",
    "change": -0.6,
    "invert": true
   }
  ],
  "todo": {
-  "date": "2026-11-18",
-  "focus": "Nvidia beat. Place 3 limit buys, cancel GPN, hold the rest.",
+  "date": "2026-11-19",
+  "focus": "Anthropic trades for the first time. Watch, don't chase.",
   "items": [
    {
-    "id": "x1",
-    "time": "12:00",
-    "text": "Infineon is WAIT: if the EUR 48.50 order was placed, cancel it",
-    "done": false
-   },
-   {
-    "id": "sp1",
-    "time": "19:30",
-    "text": "SPYM: the $86.22 limit likely filled (low $85.76). Check the fill",
-    "done": false
-   },
-   {
-    "id": "e1",
-    "time": "19:30",
-    "text": "Eaton: the $335 limit likely filled (low $332.42). Check the fill",
-    "done": false
-   },
-   {
-    "id": "a",
-    "time": "18:15",
-    "text": "Nvidia beat and raised: HOLD, no add. Read the deep-dive on its card",
-    "done": false
-   },
-   {
-    "id": "nl1",
-    "time": "18:15",
-    "text": "No lab trade and no rocket today: the red team rejected all 4. Do not chase the Nvidia bounce",
-    "done": false
-   },
-   {
-    "id": "cb1",
-    "time": "00:30",
-    "text": "Cerebras (CBRS) is $95.34, under the $100 stop. If still below $100 at 00:30 Dubai, sell",
+    "id": "c",
+    "time": "18:30",
+    "text": "Do NOT buy Anthropic (ANT) on its first day, even if it flies",
     "done": false
    }
   ]
@@ -98,7 +68,7 @@
    "why": "mixed",
    "name": "Eaton",
    "trigger": "The $335 limit likely filled (low $332.42 Wed). If not filled, keep it until Fri Nov 20; cancel if ETN closes below $327.",
-   "story": "Sales +28% (organic +19%), guidance raised. About 14% down in a month on Texas data-center policy and AI fears."
+   "story": "Sales +28% (organic +19%), full-year guide raised. 29% below its high at about 22x next year's profit."
   },
   {
    "ticker": "SPYM",
@@ -114,15 +84,15 @@
    "why": "event",
    "name": "EVENT: Nvidia beat and guided $130B",
    "trigger": "HOLD. No add. Earliest review of an add: Fri Nov 20 close (2-session rule), and only if it holds above $160.",
-   "story": "Revenue $115.8B (+103%), but the stock gave back its after-hours jump. Weak spots: lower margin guide, slower cash collection."
+   "story": "The business is fine; the stock is held back by the CEO exit, slower cash collection and a lower margin guide."
   },
   {
    "ticker": "GOOGL",
    "call": "wait",
    "why": "mixed",
    "name": "Alphabet",
-   "trigger": "The $288 limit filled: GOOGL traded below $288 Mon and Tue. No second slice for now: WAIT.",
-   "story": "Cloud sales doubled (+103%) and search still grew 12%. 31% below its high on heavy AI spending worries."
+   "trigger": "The $288 limit filled. WAIT on a second slice until the 2027 capex figure (early Feb) and search growth of at least 12%.",
+   "story": "Cloud sales doubled (+103%) and search still grew 12%. Fell on a profit miss partly from a one-off investment loss."
   },
   {
    "ticker": "IFX",
@@ -130,7 +100,7 @@
    "why": "mixed",
    "name": "Infineon \u00b7 Xetra",
    "trigger": "WAIT. Cancel the EUR 48.50 limit if placed. Reconsider Fri Nov 27 only if IFX closed above EUR 46 every day and no new US chip rule hits Europe.",
-   "story": "Guides next year +22% on data-center power chips, but the cash flow guide is about 20% below forecasts and Q1 is guided lower."
+   "story": "Guides next year +22% on data-center power chips, but the cash flow guide (about EUR 1.8bn) is below the EUR 2bn hoped for."
   },
   {
    "ticker": "EXPN",
@@ -145,7 +115,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Schneider Electric \u00b7 Paris",
-   "trigger": "WAIT: BUY 2 only with a limit at EUR 235 (last about EUR 240.60 Wed), valid until Fri Nov 27. Paris hours 12:00-20:30 Dubai, or US OTC SBGSY.",
+   "trigger": "WAIT: BUY 2 only with a limit at EUR 235 (about EUR 240.60 Wed), valid until Fri Nov 27. Paris hours 12:00-20:30 Dubai, or US OTC SBGSY.",
    "story": "Organic growth +17%, guidance raised. Fell on the PTC deal and a Middle East warning, not demand."
   },
   {
@@ -162,7 +132,7 @@
    "why": "mixed",
    "name": "Software AI fear: Salesforce, SAP",
    "trigger": "WATCH. No buy before Salesforce results Wed Dec 2. From Fri Dec 4: reconsider 2 CRM at or below that close if organic growth holds and no guide is cut.",
-   "story": "Salesforce about -8%, SAP -5.6%, Dassault -4.9% Tue. Without acquisitions Salesforce grows only about 6-7%."
+   "story": "Without acquisitions Salesforce grows only about 6-7%. Cheap at about 15x next year's profit, but not yet a buy."
   },
   {
    "ticker": "UNH",
@@ -170,7 +140,7 @@
    "why": "mixed",
    "name": "UnitedHealth",
    "trigger": "WATCH. No buy: the drop comes from a new rule that can cut payments. Reconsider after the comment period ends (Jan 19, 2027).",
-   "story": "About -5% on a proposed Medicare audit rule reaching back to 2018. The business was improving, but clawbacks are a real risk."
+   "story": "About -10% on a proposed Medicare audit rule. The business was improving, but clawbacks are a real risk."
   },
   {
    "ticker": "TTWO",
@@ -178,7 +148,23 @@
    "why": "mixed",
    "name": "Take-Two (GTA VI)",
    "trigger": "WATCH. No buy into the GTA VI launch (Thu Nov 19). Reconsider after the first sales update, only if TTWO is still below $220.",
-   "story": "About $216.67 after a 99 review score, but last quarter net bookings fell 18% and player spending fell 9%."
+   "story": "The launch is huge, but last quarter net bookings fell 18% and recurring player spending fell 9%."
+  },
+  {
+   "ticker": "NFLX",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Netflix",
+   "trigger": "WATCH. No buy. Reconsider after Q4 results (Jan 2027) only if the ad outlook is not cut again and viewing hours are not shrinking.",
+   "story": "At a 52-week low after cutting its ad outlook. Profits are strong, but growth is slowing while YouTube gains viewing time."
+  },
+  {
+   "ticker": "ABBN",
+   "call": "watch",
+   "why": "mixed",
+   "name": "ABB \u00b7 Zurich",
+   "trigger": "WATCH. No buy. Reconsider after Q4 results (Thu Jan 28, 2027) only if book-to-bill stays above 1 and the China part of the Robotics sale is resolved.",
+   "story": "Orders +40%, but they ride the data-center cycle, profit missed and China blocked part of its Robotics sale."
   },
   {
    "ticker": "NKE",
@@ -199,12 +185,8 @@
  ],
  "agenda": [
   {
-   "date": "Wed 18",
-   "event": "Target, Lowe's, TJX; US housing starts 17:30; Fed minutes 23:00; Palo Alto after close; Anthropic prices its IPO"
-  },
-  {
    "date": "Thu 19",
-   "event": "Anthropic (ANT) starts trading; Walmart; Intuit after close"
+   "event": "Anthropic (ANT) starts trading; Walmart; GTA VI launch; Intuit after close"
   },
   {
    "date": "Fri 20",
