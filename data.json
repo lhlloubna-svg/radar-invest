@@ -1,54 +1,72 @@
 {
- "updatedAt": "2026-11-18T20:52:16Z",
- "updatedLabel": "Thu 19 Nov, 00:30 Dubai",
+ "updatedAt": "2026-11-19T14:51:47Z",
+ "updatedLabel": "Thu 19 Nov, 19:20 Dubai",
  "regime": {
-  "score": 32,
-  "label": "Fearful, no panic",
-  "summary": "S&P 500 about 7,315 (-0.3% Wed), near its lowest close since July. VIX about 24.5. 10-year 5.07%. Fed minutes: almost all officials see more hikes. VIX under 30: never sell long-term holdings."
+  "score": 55,
+  "label": "Relief bounce, still nervous",
+  "summary": "S&P 500 closed 7,323.63 Wed (-0.2%), 5th down day. Futures +1% Thu, VIX 22.6 (from 24.6). 10-year 5.08% and a Dec hike about 92% priced. Philly Fed fell to 6.3 vs 20 expected while prices paid jumped: a stagflation hint."
  },
- "brief": "Stocks gave back early gains after hawkish Fed minutes (S&P 500 -0.3%, VIX about 24.5). Cerebras is $93.51, under its $100 stop: sell at 00:30 Dubai if still below $100. No new buy, no lab trade.",
+ "brief": "US futures jumped (Nasdaq-100 about +2%) on the Anthropic IPO, while health insurers and software stay under pressure. Today: sell Cerebras after 19:00 Dubai, no lab trade and no rocket, keep limit orders as they are.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,315",
-   "change": -0.34
+   "value": "7,324",
+   "change": -0.23
   },
   {
    "name": "Stoxx 600",
    "value": "644",
-   "change": -1.03
+   "change": -0.03
   },
   {
    "name": "VIX (fear)",
-   "value": "24.5",
-   "change": -3.7,
+   "value": "22.6",
+   "change": -7.8,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,728",
-   "change": -3.54
+   "value": "$3,712",
+   "change": -0.4
   },
   {
    "name": "Brent",
-   "value": "$91.60",
-   "change": -1.7
+   "value": "$93.30",
+   "change": 1.5
   },
   {
    "name": "US 10y",
-   "value": "5.07%",
-   "change": -0.6,
+   "value": "5.08%",
+   "change": 0.2,
    "invert": true
   }
  ],
  "todo": {
   "date": "2026-11-19",
-  "focus": "Anthropic trades for the first time. Watch, don't chase.",
+  "focus": "Sell Cerebras (stop hit). No lab trade, no rocket. Anthropic debuts: don't chase.",
   "items": [
    {
     "id": "c",
     "time": "18:30",
     "text": "Do NOT buy Anthropic (ANT) on its first day, even if it flies",
+    "done": false
+   },
+   {
+    "id": "cb2",
+    "time": "19:00",
+    "text": "CBRS closed $94.15, under the $100 stop: SELL after 19:00 Dubai if not done yet",
+    "done": false
+   },
+   {
+    "id": "lb3",
+    "time": "19:00",
+    "text": "Lab: no trade today. Palo Alto and Take-Two rejected (chase / launch-day hype)",
+    "done": false
+   },
+   {
+    "id": "sp2",
+    "time": "",
+    "text": "SPYM: next weekly buy uses a limit at or below the last close ($85.97), not $91",
     "done": false
    }
   ]
@@ -59,7 +77,7 @@
    "call": "buy",
    "why": "mixed",
    "name": "Richemont (Cartier) \u00b7 Zurich",
-   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Closed CHF 175.45 Wed (low 172.00): not filled. Keep the limit, do not chase. SIX, or ADR CFRUY.",
+   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. About CHF 179.60 Thu, 5% above the limit: not filled. Do not chase. SIX, or ADR CFRUY.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -75,16 +93,8 @@
    "call": "buy",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "The $86.22 limit likely filled (low $85.76 Wed). Then BUY 6 more each week while below $91.",
+   "trigger": "The $86.22 limit likely filled (low $85.55 Wed). Next weekly buy: 6 SPYM with a limit at or below the previous close ($85.97), never above it.",
    "story": "The 500 biggest US companies for 0.02% a year. About 3.5% below its high after a -3% month."
-  },
-  {
-   "ticker": "NVDA",
-   "call": "hold",
-   "why": "event",
-   "name": "EVENT: Nvidia beat and guided $130B",
-   "trigger": "HOLD. No add. Earliest review of an add: Fri Nov 20 close (2-session rule), and only if it holds above $160.",
-   "story": "The business is fine; the stock is held back by the CEO exit, slower cash collection and a lower margin guide."
   },
   {
    "ticker": "GOOGL",
@@ -103,19 +113,11 @@
    "story": "Guides next year +22% on data-center power chips, but the cash flow guide (about EUR 1.8bn) is below the EUR 2bn hoped for."
   },
   {
-   "ticker": "EXPN",
-   "call": "wait",
-   "why": "mixed",
-   "name": "Experian \u00b7 London",
-   "trigger": "WAIT. Reconsider after Fri Nov 20 close: BUY up to 12 shares at or below that close, only if above 2,800p and no target cuts.",
-   "story": "EPS +15% and an extra $500M buyback, but the top of its growth guide was cut. 16.5% below its January high."
-  },
-  {
    "ticker": "SU",
    "call": "wait",
    "why": "mixed",
    "name": "Schneider Electric \u00b7 Paris",
-   "trigger": "WAIT: BUY 2 only with a limit at EUR 235 (about EUR 240.60 Wed), valid until Fri Nov 27. Paris hours 12:00-20:30 Dubai, or US OTC SBGSY.",
+   "trigger": "WAIT: BUY 2 only with a limit at EUR 235 (about EUR 242.50 Thu), valid until Fri Nov 27. Paris hours 12:00-20:30 Dubai, or US OTC SBGSY.",
    "story": "Organic growth +17%, guidance raised. Fell on the PTC deal and a Middle East warning, not demand."
   },
   {
@@ -123,7 +125,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "TSMC",
-   "trigger": "WAIT. Closed $359.69 Tue, about $376 pre-market after Nvidia. BUY 1 only after a close above $385, limit at that close or $395, whichever is lower.",
+   "trigger": "WAIT. Closed $362.62 Wed. BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
@@ -135,58 +137,50 @@
    "story": "Without acquisitions Salesforce grows only about 6-7%. Cheap at about 15x next year's profit, but not yet a buy."
   },
   {
-   "ticker": "UNH",
+   "ticker": "INTU",
    "call": "watch",
    "why": "mixed",
-   "name": "UnitedHealth",
-   "trigger": "WATCH. No buy: the drop comes from a new rule that can cut payments. Reconsider after the comment period ends (Jan 19, 2027).",
-   "story": "About -10% on a proposed Medicare audit rule. The business was improving, but clawbacks are a real risk."
+   "name": "Intuit",
+   "trigger": "WATCH. No buy on results day (tonight, 01:00 Dubai). Reconsider at the Mon Nov 23 close, only if no guide line is cut.",
+   "story": "Down about 9% in two days on AI fear. Core growth is slowing: online paying customers +3%, FY27 revenue guide only +9-10%."
+  },
+  {
+   "ticker": "UNH",
+   "call": "watch",
+   "why": "business",
+   "name": "UnitedHealth, Humana",
+   "trigger": "WATCH UNH and HUM. No buy: the rule can cut payments and its size is unknown. Reconsider after comments close (Jan 19, 2027).",
+   "story": "Down 10-13% on a proposed Medicare audit rule. The businesses were improving, but an unsized clawback is a real risk."
   },
   {
    "ticker": "TTWO",
    "call": "watch",
    "why": "mixed",
    "name": "Take-Two (GTA VI)",
-   "trigger": "WATCH. No buy into the GTA VI launch (Thu Nov 19). Reconsider after the first sales update, only if TTWO is still below $220.",
+   "trigger": "WATCH. No buy on launch day. Reconsider only after Take-Two publishes a sell-through number, and only if TTWO is still below $220.",
    "story": "The launch is huge, but last quarter net bookings fell 18% and recurring player spending fell 9%."
   },
   {
-   "ticker": "NFLX",
+   "ticker": "MC",
    "call": "watch",
    "why": "mixed",
-   "name": "Netflix",
-   "trigger": "WATCH. No buy. Reconsider after Q4 results (Jan 2027) only if the ad outlook is not cut again and viewing hours are not shrinking.",
-   "story": "At a 52-week low after cutting its ad outlook. Profits are strong, but growth is slowing while YouTube gains viewing time."
+   "name": "Luxury: LVMH, Moncler",
+   "trigger": "WATCH. No buy while LVMH Fashion & Leather shrinks. Reconsider after LVMH full-year results (late Jan 2027).",
+   "story": "LVMH about 40% below its high, Moncler at a 4-year low. Part mood, but LVMH Fashion & Leather fell 5% organic in Q3."
   },
   {
-   "ticker": "ABBN",
+   "ticker": "PANW",
    "call": "watch",
    "why": "mixed",
-   "name": "ABB \u00b7 Zurich",
-   "trigger": "WATCH. No buy. Reconsider after Q4 results (Thu Jan 28, 2027) only if book-to-bill stays above 1 and the China part of the Robotics sale is resolved.",
-   "story": "Orders +40%, but they ride the data-center cycle, profit missed and China blocked part of its Robotics sale."
-  },
-  {
-   "ticker": "NKE",
-   "call": "avoid",
-   "why": "business",
-   "name": "Nike",
-   "trigger": "AVOID. Sales are still shrinking. Reconsider only after a quarter with sales growth.",
-   "story": "-6.3% after its investor day pushed the recovery out. Sales fell 5% and free cash flow did not cover the dividend."
-  },
-  {
-   "ticker": "PRX",
-   "call": "avoid",
-   "why": "business",
-   "name": "Prosus \u00b7 Amsterdam",
-   "trigger": "AVOID. No buy before its H1 results on Wed Nov 25; reconsider only if Tencent's profit grows again.",
-   "story": "-5% to -7% on Tencent's Q3 revenue miss. Tencent is about 73% of its assets and its profit is falling on AI spending."
+   "name": "Palo Alto Networks",
+   "trigger": "WATCH. No lab trade: entry would be a chase after about +20% in two sessions. Reconsider only on a pullback that holds $350 by Wed Nov 25.",
+   "story": "Revenue +39%, but about +25% without CyberArk. At about 87x next year's EPS, the good news is priced in."
   }
  ],
  "agenda": [
   {
    "date": "Thu 19",
-   "event": "Anthropic (ANT) starts trading; Walmart; GTA VI launch; Intuit after close"
+   "event": "Anthropic (ANT) first trade; Walmart; Intuit, Ross, Keysight, Gap after close"
   },
   {
    "date": "Fri 20",
