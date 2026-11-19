@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-11-19T17:52:00Z",
- "updatedLabel": "Thu 19 Nov, 21:55 Dubai",
+ "updatedAt": "2026-11-19T18:51:15Z",
+ "updatedLabel": "Thu 19 Nov, 22:40 Dubai",
  "regime": {
-  "score": 42,
-  "label": "Bounce faded, nervous",
-  "summary": "S&P 500 about 7,296 (-0.4%) after 11:00 ET, Nasdaq 100 flat after +2% early, Dow about -1%. 10-year near 5.1%; a December Fed hike is about 90% priced. Philly Fed 6.3 vs 18 expected."
+  "score": 34,
+  "label": "Selloff, stressed",
+  "summary": "S&P 500 about 7,214 (-1.5%) at 13:13 ET, sixth loss in a row; Dow about -2%. AMD -8% on a short report, UNH -5.5% again, hawkish Fed talk and Anthropic's IPO fading. Philly Fed 6.3 vs 18 expected."
  },
- "brief": "The AI bounce faded: the S&P 500 is about -0.4% and the Dow about -1%, while Anthropic opened 34% above its IPO price and AMD fell 8% on a short report. Today: sell Cerebras if not done, no lab trade, keep limit orders as they are.",
+ "brief": "The early bounce turned into a broad selloff: the S&P 500 is about -1.5% and the Dow is down about 1,000 points, with the VIX near 27. Today: sell Cerebras if not done, no lab trade, keep limit orders as they are, and do not sell long-term holdings on this drop.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,296",
-   "change": -0.37
+   "value": "7,214",
+   "change": -1.49
   },
   {
    "name": "Stoxx 600",
@@ -20,14 +20,14 @@
   },
   {
    "name": "VIX (fear)",
-   "value": "25.5",
-   "change": null,
+   "value": "26.8",
+   "change": 9,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,715",
-   "change": -0.25
+   "value": "$3,682",
+   "change": -1.61
   },
   {
    "name": "Brent",
@@ -36,7 +36,7 @@
   },
   {
    "name": "US 10y",
-   "value": "5.07%",
+   "value": "5.06%",
    "change": null,
    "invert": true
   }
@@ -161,14 +161,6 @@
    "story": "LVMH about 40% below its high, Moncler at a 4-year low. Part mood, but LVMH Fashion & Leather fell 5% organic in Q3."
   },
   {
-   "ticker": "EVK",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Evonik \u00b7 Xetra",
-   "trigger": "WATCH. No buy: the drop is a lost takeover premium and price-led profits may fade. Reconsider only after Q4 results (early March 2027).",
-   "story": "Down about 17% after BASF dropped its takeover pursuit. Q3 sales +13%, but volume only +2% and price +10%."
-  },
-  {
    "ticker": "AMD",
    "call": "watch",
    "why": "mixed",
@@ -185,12 +177,20 @@
    "story": "Down 8-11% on a small sales miss and a kept guide. Comps +5.1%, but Pottery Barn grew only +1.8%."
   },
   {
-   "ticker": "FCX",
-   "call": "avoid",
-   "why": "business",
-   "name": "Freeport-McMoRan (copper)",
-   "trigger": "AVOID FCX. Not a dip to buy: volumes fell and the forecast assumes copper well above today's price. Reconsider only after Q4 results (January).",
-   "story": "Down about 7% twice in a week. Q3 copper sales -23% and the Q4 plan assumes $6.50/lb copper vs about $5.67 today."
+   "ticker": "ASML",
+   "call": "watch",
+   "why": "mixed",
+   "name": "ASML",
+   "trigger": "WATCH. No buy: new US chip export rule. Reconsider after Q4 results (late Jan 2027) if the 2027 sales view is above EUR 50bn.",
+   "story": "Record Q3 sales EUR 11.7bn and the 2026 guide floor raised. But a new US rule limits where customers can sell, and China is about 20% of revenue."
+  },
+  {
+   "ticker": "VRT",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Vertiv",
+   "trigger": "WATCH. No buy: AI-infra exposure and slowing AI capex forecasts. Reconsider after Q4 results (Feb 2027) if organic growth stays above 40%.",
+   "story": "Down 6.6% Nov 16 with no news, about 47% below its high. Q3 sales +61% (55% organic), but EMEA organic is -3.3% over nine months."
   }
  ],
  "agenda": [
