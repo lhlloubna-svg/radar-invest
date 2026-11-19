@@ -1,43 +1,43 @@
 {
- "updatedAt": "2026-11-19T15:51:09Z",
- "updatedLabel": "Thu 19 Nov, 19:25 Dubai",
+ "updatedAt": "2026-11-19T16:51:11Z",
+ "updatedLabel": "Thu 19 Nov, 20:45 Dubai",
  "regime": {
-  "score": 55,
-  "label": "Relief bounce, still nervous",
-  "summary": "S&P 500 closed 7,323.63 Wed (-0.2%), 5th down day. Futures +1% Thu, VIX 22.6 (from 24.6). 10-year 5.08% and a Dec hike about 92% priced. Philly Fed fell to 6.3 vs 20 expected while prices paid jumped: a stagflation hint."
+  "score": 48,
+  "label": "Bounce faded, nervous",
+  "summary": "S&P 500 about 7,293 (-0.4%) at 10:50 ET after +1.1% at the open. VIX about 25.8 (+5%). 10-year about 5.06%; JPMorgan now expects Fed hikes from December. Philly Fed 6.3 vs about 20 expected while prices paid jumped."
  },
- "brief": "US futures jumped (Nasdaq-100 about +2%) on the Anthropic IPO, while health insurers and software stay under pressure. Today: sell Cerebras after 19:00 Dubai, no lab trade and no rocket, keep limit orders as they are.",
+ "brief": "The Anthropic IPO bounce faded: the S&P 500 turned about -0.4% by 10:50 ET and VIX rose to about 25.8. Today: sell Cerebras after 19:00 Dubai if not done, no lab trade, no rocket, keep limit orders as they are.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,413",
-   "change": 1.21
+   "value": "7,293",
+   "change": -0.42
   },
   {
    "name": "Stoxx 600",
    "value": "644",
-   "change": -0.03
+   "change": -0.2
   },
   {
    "name": "VIX (fear)",
-   "value": "22.6",
-   "change": -7.8,
+   "value": "25.8",
+   "change": 5.1,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,712",
-   "change": -0.4
+   "value": "$3,691",
+   "change": -1.35
   },
   {
    "name": "Brent",
-   "value": "$93.30",
-   "change": 1.5
+   "value": "$92.19",
+   "change": null
   },
   {
    "name": "US 10y",
-   "value": "5.08%",
-   "change": 0.2,
+   "value": "5.06%",
+   "change": null,
    "invert": true
   }
  ],
@@ -153,14 +153,6 @@
    "story": "Down 10-13% on a proposed Medicare audit rule. The businesses were improving, but an unsized clawback is a real risk."
   },
   {
-   "ticker": "TTWO",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Take-Two (GTA VI)",
-   "trigger": "WATCH. No buy on launch day. Reconsider only after Take-Two publishes a sell-through number, and only if TTWO is still below $220.",
-   "story": "The launch is huge, but last quarter net bookings fell 18% and recurring player spending fell 9%."
-  },
-  {
    "ticker": "MC",
    "call": "watch",
    "why": "mixed",
@@ -169,12 +161,20 @@
    "story": "LVMH about 40% below its high, Moncler at a 4-year low. Part mood, but LVMH Fashion & Leather fell 5% organic in Q3."
   },
   {
-   "ticker": "PANW",
+   "ticker": "EVK",
    "call": "watch",
    "why": "mixed",
-   "name": "Palo Alto Networks",
-   "trigger": "WATCH. No lab trade: entry would be a chase after about +20% in two sessions. Reconsider only on a pullback that holds $350 by Wed Nov 25.",
-   "story": "Revenue +39%, but about +25% without CyberArk. At about 87x next year's EPS, the good news is priced in."
+   "name": "Evonik \u00b7 Xetra",
+   "trigger": "WATCH. No buy: the drop is a lost takeover premium and price-led profits may fade. Reconsider only after Q4 results (early March 2027).",
+   "story": "Down about 17% after BASF dropped its takeover pursuit. Q3 sales +13%, but volume only +2% and price +10%."
+  },
+  {
+   "ticker": "WSM",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Williams-Sonoma",
+   "trigger": "WATCH. No buy on results day. Reconsider at the Mon Nov 23 close, only if WSM holds above $235 and no analyst cuts the guide.",
+   "story": "Down 8-11% on a small sales miss and a kept guide. Comps +5.1%, but Pottery Barn grew only +1.8%."
   }
  ],
  "agenda": [
