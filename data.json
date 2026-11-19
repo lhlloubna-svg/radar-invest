@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-19T14:51:47Z",
- "updatedLabel": "Thu 19 Nov, 19:20 Dubai",
+ "updatedAt": "2026-11-19T15:51:09Z",
+ "updatedLabel": "Thu 19 Nov, 19:25 Dubai",
  "regime": {
   "score": 55,
   "label": "Relief bounce, still nervous",
@@ -10,8 +10,8 @@
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,324",
-   "change": -0.23
+   "value": "7,413",
+   "change": 1.21
   },
   {
    "name": "Stoxx 600",
