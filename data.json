@@ -1,72 +1,66 @@
 {
- "updatedAt": "2026-11-19T18:51:15Z",
- "updatedLabel": "Thu 19 Nov, 22:40 Dubai",
+ "updatedAt": "2026-11-19T21:51:44Z",
+ "updatedLabel": "Fri 20 Nov, 01:30 Dubai",
  "regime": {
-  "score": 34,
+  "score": 22,
   "label": "Selloff, stressed",
-  "summary": "S&P 500 about 7,214 (-1.5%) at 13:13 ET, sixth loss in a row; Dow about -2%. AMD -8% on a short report, UNH -5.5% again, hawkish Fed talk and Anthropic's IPO fading. Philly Fed 6.3 vs 18 expected."
+  "summary": "S&P 500 7,176 (-2.02%), Nasdaq -2.25%, Dow -2.19% (about -1,100 points). Sixth straight S&P loss, 8.2% below its record. AI trade fading, AMD hit by a short report, Nvidia -3.3%, hawkish Fed with a December hike priced."
  },
- "brief": "The early bounce turned into a broad selloff: the S&P 500 is about -1.5% and the Dow is down about 1,000 points, with the VIX near 27. Today: sell Cerebras if not done, no lab trade, keep limit orders as they are, and do not sell long-term holdings on this drop.",
+ "brief": "The S&P 500 fell 2.0% to 7,176, its sixth loss in a row and longest slide since 2024, with the VIX near 28. Nothing to buy: keep limit orders as they are, HOLD Nvidia, and record the Cerebras sale.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,214",
-   "change": -1.49
+   "value": "7,176",
+   "change": -2.02
   },
   {
    "name": "Stoxx 600",
-   "value": "644",
-   "change": -0.2
+   "value": "638",
+   "change": -0.88
   },
   {
    "name": "VIX (fear)",
-   "value": "26.8",
-   "change": 9,
+   "value": "28.0",
+   "change": 13.8,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,682",
-   "change": -1.61
+   "value": "$3,660",
+   "change": -1.8
   },
   {
    "name": "Brent",
-   "value": "$92.19",
-   "change": null
+   "value": "$92.50",
+   "change": 0.7
   },
   {
    "name": "US 10y",
-   "value": "5.06%",
+   "value": "5.05%",
    "change": null,
    "invert": true
   }
  ],
  "todo": {
-  "date": "2026-11-19",
-  "focus": "Sell Cerebras (stop hit). No lab trade, no rocket. Anthropic debuts: don't chase.",
+  "date": "2026-11-20",
+  "focus": "Last lab day of the week. Take stock.",
   "items": [
    {
-    "id": "c",
-    "time": "18:30",
-    "text": "Do NOT buy Anthropic (ANT) on its first day, even if it flies",
+    "id": "cb3",
+    "time": "18:15",
+    "text": "CBRS: record the sale price so the lab log is right",
     "done": false
    },
    {
-    "id": "cb2",
+    "id": "lb4",
     "time": "19:00",
-    "text": "CBRS closed $94.15, under the $100 stop: SELL after 19:00 Dubai if not done yet",
+    "text": "Lab: trade only if VIX is below 25. Intuit -12% after hours is a guide cut, not a buy",
     "done": false
    },
    {
-    "id": "lb3",
-    "time": "19:00",
-    "text": "Lab: no trade today. Palo Alto, Take-Two and Intel rejected (chase / day-2 hype)",
-    "done": false
-   },
-   {
-    "id": "sp2",
+    "id": "e",
     "time": "",
-    "text": "SPYM: next weekly buy uses a limit at or below the last close ($85.97), not $91",
+    "text": "Saturday: read the lab weekly review and write down 1 lesson",
     "done": false
    }
   ]
@@ -77,7 +71,7 @@
    "call": "buy",
    "why": "mixed",
    "name": "Richemont (Cartier) \u00b7 Zurich",
-   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. About CHF 179.60 Thu, 5% above the limit: not filled. Do not chase. SIX, or ADR CFRUY.",
+   "trigger": "BUY 2 with a limit at CHF 170, valid until Fri Nov 27. Closed CHF 177.15 Thu, 4% above the limit: not filled. Do not chase. SIX, or ADR CFRUY.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -93,7 +87,7 @@
    "call": "buy",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "The $86.22 limit likely filled (low $85.55 Wed). Next weekly buy: 6 SPYM with a limit at or below the previous close ($85.97), never above it.",
+   "trigger": "The $86.22 limit likely filled (low $85.55 Wed). Next weekly buy: 6 SPYM with a limit at or below Thursday's close, never above it.",
    "story": "The 500 biggest US companies for 0.02% a year. About 3.5% below its high after a -3% month."
   },
   {
@@ -125,7 +119,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "TSMC",
-   "trigger": "WAIT. Closed $362.62 Wed. BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
+   "trigger": "WAIT. About $356 Thu. BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
@@ -141,8 +135,8 @@
    "call": "watch",
    "why": "mixed",
    "name": "Intuit",
-   "trigger": "WATCH. No buy on results day (tonight, 01:00 Dubai). Reconsider at the Mon Nov 23 close, only if no guide line is cut.",
-   "story": "Down about 9% in two days on AI fear. Core growth is slowing: online paying customers +3%, FY27 revenue guide only +9-10%."
+   "trigger": "WATCH. No buy. Reconsider at the Mon Nov 23 close only if INTU holds above $272 and the call shows the AI hit stays in Credit Karma.",
+   "story": "Beat on sales (+12%) and profit, but the FY27 sales guide was cut to +8-9% on Credit Karma. About -12% after hours."
   },
   {
    "ticker": "UNH",
@@ -166,15 +160,7 @@
    "why": "mixed",
    "name": "AMD",
    "trigger": "WATCH. No buy while the export question is open. Reconsider only if AMD answers the report and the stock closes back above $520.",
-   "story": "Down about 8% on a short seller's China firmware report. Data center +97%, but gaming -40% and an export probe could hit sales."
-  },
-  {
-   "ticker": "WSM",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Williams-Sonoma",
-   "trigger": "WATCH. No buy before the FY27 guidance in March 2027. Reconsider only if Pottery Barn growth recovers and management restates its long-term plan.",
-   "story": "Down 8-11% on a small sales miss and a kept guide. Comps +5.1%, but Pottery Barn grew only +1.8%."
+   "story": "Down sharply on a short seller's China firmware report. Data center +97%, but gaming -40% and an export probe could hit sales."
   },
   {
    "ticker": "ASML",
@@ -182,7 +168,7 @@
    "why": "mixed",
    "name": "ASML",
    "trigger": "WATCH. No buy: new US chip export rule. Reconsider after Q4 results (late Jan 2027) if the 2027 sales view is above EUR 50bn.",
-   "story": "Record Q3 sales EUR 11.7bn and the 2026 guide floor raised. But a new US rule limits where customers can sell, and China is about 20% of revenue."
+   "story": "Record Q3 sales EUR 11.7bn and the 2026 guide floor raised. But a new US rule limits where customers can sell."
   },
   {
    "ticker": "VRT",
@@ -190,17 +176,21 @@
    "why": "mixed",
    "name": "Vertiv",
    "trigger": "WATCH. No buy: AI-infra exposure and slowing AI capex forecasts. Reconsider after Q4 results (Feb 2027) if organic growth stays above 40%.",
-   "story": "Down 6.6% Nov 16 with no news, about 47% below its high. Q3 sales +61% (55% organic), but EMEA organic is -3.3% over nine months."
+   "story": "About 47% below its high. Q3 sales +61% (55% organic), but EMEA organic is -3.3% over nine months."
+  },
+  {
+   "ticker": "ACN",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Accenture",
+   "trigger": "WATCH. No buy before results (Dec 17, estimated). Reconsider after them only if growth without acquisitions is above 4%.",
+   "story": "Down about 13% in a week on AI-deal fear. Growth without acquisitions is only about 3%, and the FY27 guide leans on deals."
   }
  ],
  "agenda": [
   {
-   "date": "Thu 19",
-   "event": "Anthropic (ANT) first trade; Fed's Barr on AI 23:15 Dubai; Intuit, Ross, Keysight, Gap after close"
-  },
-  {
    "date": "Fri 20",
-   "event": "Sandisk first day after its 8-for-1 split; GPN $86 order expires"
+   "event": "Waller 17:25 Dubai, UMich 19:00 Dubai, options expiry; Sandisk first day after its 8-for-1 split; GPN $86 order expires"
   },
   {
    "date": "Tue 24",
