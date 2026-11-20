@@ -1,38 +1,38 @@
 {
- "updatedAt": "2026-11-20T16:51:49Z",
- "updatedLabel": "Fri 20 Nov, 20:50 Dubai",
+ "updatedAt": "2026-11-20T18:51:14Z",
+ "updatedLabel": "Fri 20 Nov, 22:45 Dubai",
  "regime": {
-  "score": 22,
+  "score": 16,
   "label": "Selloff, stressed",
-  "summary": "At 11:20 ET the S&P 500 is about -1.3% and the Nasdaq about -2.5% (QQQ -2.7%), a 7th losing day likely. VIX about 30. Gold -3.7% to about $3,549, Brent about $90.9, US 10-year 4.95%. A December Fed hike is about 95-99% priced; Fed's Cook speaks 21:15 Dubai, plus monthly options expiry."
+  "summary": "At about 13:00 ET the S&P 500 is about -2.2% (7,015), a 7th losing day, and VIX about 32, the highest since March. Broadcom -12%, AMD -11%, Micron -11%. Stoxx 600 closed -2.0%. Gold about -3%, Brent about $89-92, US 10-year about 4.93%."
  },
- "brief": "The AI chip selloff got worse into midday: Nasdaq about -2.5%, Nvidia -6%, European chips -7 to -9%, VIX about 30. Do nothing new today: no lab trade, no rocket; keep the SPYM limit at $84.26 (it should fill) and check if the Richemont CHF 170 limit filled.",
+ "brief": "The AI selloff got worse after midday: S&P 500 about -2.2%, VIX about 32, Broadcom -12% on a reported Google order cut. Do nothing new today: no lab trade, no rocket, HOLD Nvidia, and just log any filled limits (SPYM, Richemont).",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,083",
-   "change": -1.3
+   "value": "7,015",
+   "change": -2.2
   },
   {
    "name": "Stoxx 600",
-   "value": "631",
-   "change": -1.14
+   "value": "626",
+   "change": -2.0
   },
   {
    "name": "VIX (fear)",
-   "value": "30.2",
-   "change": null,
+   "value": "32.3",
+   "change": 13.7,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,549",
-   "change": -3.71
+   "value": "$3,539",
+   "change": -4.0
   },
   {
    "name": "Brent",
-   "value": "$90.93",
-   "change": null
+   "value": "$88.94",
+   "change": -0.56
   },
   {
    "name": "US 10y",
@@ -54,7 +54,7 @@
    {
     "id": "lb4",
     "time": "19:00",
-    "text": "Lab: no trade today. VIX near 30 (above 25). No rocket: Credo rejected by the red team",
+    "text": "Lab: no trade today. VIX about 31 (above 25). No rocket: Credo rejected by the red team",
     "done": false
    },
    {
@@ -72,13 +72,13 @@
    {
     "id": "cfr6",
     "time": "17:00",
-    "text": "Richemont is WAIT: CFR hit CHF 168.90, so the CHF 170 limit may have filled. If yes, log it; if not, cancel",
+    "text": "Richemont: CFR fell to CHF 167.15 Fri, so the CHF 170 limit likely filled. If yes, log it",
     "done": false
    },
    {
     "id": "etn7",
     "time": "17:00",
-    "text": "Eaton changed to WAIT: cancel the $335 limit if it did not fill Wed",
+    "text": "Eaton is WAIT: cancel the $335 limit if it did not fill Wed. Dec 4 review off (new low $310.61)",
     "done": false
    }
   ]
@@ -89,15 +89,15 @@
    "call": "buy",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "Weekly slice: BUY 6 SPYM with a limit at $84.26 (Thu close) or lower, valid to Fri Nov 27. SPYM trades about $83.16, so the order should fill.",
-   "story": "The 500 biggest US companies for 0.02% a year. About 9% below its high, -6.7% in a month."
+   "trigger": "Weekly slice: BUY 6 SPYM with a limit at $84.26 or lower, valid to Fri Nov 27. SPYM traded $82.50-84.58 Fri, so a placed order has filled.",
+   "story": "The 500 biggest US companies for 0.02% a year. 3.5% below its high after a -3% month."
   },
   {
    "ticker": "CFR",
    "call": "wait",
    "why": "mixed",
    "name": "Richemont (Cartier) \u00b7 Zurich",
-   "trigger": "WAIT. About CHF 168.90 Fri: if the CHF 170 limit filled, log it; if not, cancel. After Nov 27: BUY 2 at CHF 168 or lower only if Hermes made no new low.",
+   "trigger": "WAIT. CFR fell to CHF 167.15 Fri, so the CHF 170 limit likely filled. After Nov 27: BUY 2 at CHF 168 or lower only if Hermes made no new low.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -105,8 +105,8 @@
    "call": "wait",
    "why": "mixed",
    "name": "Eaton",
-   "trigger": "WAIT. If the $335 limit filled Wed, HOLD; if not, cancel it. After the Dec 4 close: BUY 1 at $312 or that close, whichever is lower, if ETN stayed above $311.92.",
-   "story": "Sales +28% (organic +19%), full-year guide raised. 33% below its high after -14% in a month on AI power fears."
+   "trigger": "WAIT. Cancel the $335 limit if it did not fill Wed. ETN broke $311.92 Fri (low $310.61), so the Dec 4 review is off. Reconsider after 2 closes above $330.",
+   "story": "Sales +28% (organic +19%), full-year guide raised. 29% below its high at about 22x next year's profit."
   },
   {
    "ticker": "GOOGL",
@@ -121,8 +121,8 @@
    "call": "wait",
    "why": "mixed",
    "name": "Infineon \u00b7 Xetra",
-   "trigger": "WAIT. No order. About EUR 45.60 Fri, below EUR 46. Reconsider only after 3 closes in a row above EUR 48.50 and no new US chip rule hits Europe.",
-   "story": "Guides next year +22% on data-center power chips, but the cash flow guide is below hopes. Down 7.6% Fri with European chips."
+   "trigger": "WAIT. No order. Fri close EUR 45.44, below EUR 46, so the Nov 27 review is off. Reconsider after 3 closes above EUR 48.50 and no new US chip rule.",
+   "story": "Guides next year +22% on data-center power chips, but the cash flow guide is below hopes. The drop is chip-sector mood."
   },
   {
    "ticker": "SU",
@@ -130,14 +130,14 @@
    "why": "mixed",
    "name": "Schneider Electric \u00b7 Paris",
    "trigger": "WAIT. Cancel the EUR 235 limit if placed. No new order before full-year results (late Feb 2027); then BUY 2 at EUR 224 only if a cash flow guide is given.",
-   "story": "Organic growth +17%, guidance raised. Fell on the PTC deal and the AI selloff; now about 2.5% above its 52-week low."
+   "story": "Organic growth +16.9%, record backlog, guidance raised. Fell on the PTC deal and a Middle East warning, not slower demand."
   },
   {
    "ticker": "TSM",
    "call": "wait",
    "why": "mixed",
    "name": "TSMC",
-   "trigger": "WAIT. About $328 Fri. BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
+   "trigger": "WAIT. About $322 Fri. BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
@@ -149,20 +149,12 @@
    "story": "Without acquisitions Salesforce grows only about 6-7%. Cheap at about 15x next year's profit, but not yet a buy."
   },
   {
-   "ticker": "UNH",
-   "call": "watch",
-   "why": "business",
-   "name": "UnitedHealth, Humana",
-   "trigger": "WATCH UNH and HUM. No buy: the rule can cut payments and its size is unknown. Reconsider after comments close (Jan 19, 2027).",
-   "story": "Down 10-13% on a proposed Medicare audit rule. TD Cowen upgraded both Fri, but an unsized clawback is a real risk."
-  },
-  {
    "ticker": "INTU",
    "call": "watch",
    "why": "mixed",
    "name": "Intuit",
    "trigger": "WATCH. No buy. Reconsider at the Mon Nov 23 close only if INTU holds above $272 and the call shows the AI hit stays in Credit Karma.",
-   "story": "Beat on sales (+12%) and profit, but the FY27 sales guide was cut on Credit Karma. About -10% Fri at $278."
+   "story": "AI shows up in Intuit's guidance for the first time (Credit Karma cut). QuickBooks still grows about 19%."
   },
   {
    "ticker": "MC",
@@ -170,7 +162,23 @@
    "why": "mixed",
    "name": "Luxury: LVMH, Hermes, Moncler",
    "trigger": "WATCH. No buy while Hermes makes new lows and LVMH Fashion & Leather shrinks. Reconsider after LVMH (late Jan) and Hermes (Feb) results.",
-   "story": "Hermes at a 52-week low, Moncler at a 4-year low. Part mood, but LVMH Fashion & Leather fell 5% organic in Q3."
+   "story": "Part mood, but the core is weak: LVMH Fashion & Leather -5% organic in Q3 and the Moncler brand -1%."
+  },
+  {
+   "ticker": "AVGO",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Broadcom",
+   "trigger": "WATCH. No buy before results (Wed Dec 9). Reconsider Fri Dec 11 only if the AI chip guide is kept and Google orders are not confirmed lower.",
+   "story": "Revenue +86% and AI chips +221%, but a report of a Google order cut hit it -12%. Non-AI chips grow only low single digits."
+  },
+  {
+   "ticker": "CAT",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Caterpillar",
+   "trigger": "WATCH. No buy in this selloff. Reconsider after Q4 results and the 2027 guide (Wed Jan 28, 2027) only if sales growth stays mid-teens.",
+   "story": "Q3 sales +17%, record backlog, Power Generation +30%. But tariffs cost about $2.2B and the price now moves with AI sentiment."
   },
   {
    "ticker": "CRDO",
@@ -178,23 +186,23 @@
    "why": "mixed",
    "name": "Credo",
    "trigger": "WATCH. No buy before results (Tue Dec 1, after close). Reconsider Thu Dec 3 only if revenue beats $535M and the optical target is raised.",
-   "story": "65% below its high. Revenue +115% but slowing to about +97%, and four customers make most of sales."
-  },
-  {
-   "ticker": "LR",
-   "call": "watch",
-   "why": "mixed",
-   "name": "EU grid: Legrand, Prysmian",
-   "trigger": "WATCH. No buy while Schneider trades within 3% of its 52-week low. Reconsider after the Fri Dec 4 close.",
-   "story": "Both grow double digits organically, but growth leans on data centres and deals, and Legrand Europe is -0.9%."
+   "story": "Revenue +115% but slowing to about +97%, and four customers make most of sales. A binary report in a stressed market."
   },
   {
    "ticker": "STM",
    "call": "watch",
    "why": "mixed",
    "name": "European chips: STMicro, ASML",
-   "trigger": "WATCH. No buy. STMicro, ASML and ASMI: reconsider after Q4 results (late Jan 2027). Infineon: see its card.",
-   "story": "Down 7-9% Fri on the AI selloff. STMicro sales are fine (+17.9%), but EPS missed and capex is up about 60%."
+   "trigger": "WATCH. No buy. STMicro: reconsider after Q4 results (late Jan 2027) if it closes back above EUR 39. ASML, ASMI: after Q4 results. Infineon: see its card.",
+   "story": "STMicro sales are fine (+17.9%), but EPS missed and capex is up about 60%. Momentum risk dominates."
+  },
+  {
+   "ticker": "ISRG",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Intuitive Surgical",
+   "trigger": "WATCH. No buy while the selloff runs. BUY 1 only after 2 closes in a row above $440, with a limit at or below that close.",
+   "story": "Revenue +22% and procedures +15%, but price cuts lower revenue per procedure. About 34x next year's profit, not cheap."
   },
   {
    "ticker": "ENR",
@@ -202,21 +210,13 @@
    "why": "mixed",
    "name": "Siemens Energy \u00b7 Xetra",
    "trigger": "WATCH. No buy in this selloff. Reconsider after Q1 results (Thu Feb 11, 2027) only if orders keep growing and the FY2027 guide is kept.",
-   "story": "Record backlog EUR 164bn and revenue guided +14-16%, but the wind unit shrinks. 38% below its high."
-  },
-  {
-   "ticker": "TEVA",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Teva",
-   "trigger": "WATCH. No buy. Reconsider after Q4 results only if the 2027 guide holds Austedo near $2.5B and the profit guide is not cut again.",
-   "story": "Fell 8.7% Thu after its R&D chief left. Q3 revenue -2% and Austedo guided lower in 2027: mixed, not mood."
+   "story": "Record backlog EUR 164bn and revenue guided +14-16%, but the wind unit shrinks. Mixed, not mood."
   }
  ],
  "agenda": [
   {
    "date": "Fri 20",
-   "event": "UMich 19:00 Dubai; Fed's Cook 21:15 Dubai; monthly options expiry"
+   "event": "UMich 19:00 Dubai (51.5); Fed's Cook 21:15 Dubai; options expiry"
   },
   {
    "date": "Mon 23",
