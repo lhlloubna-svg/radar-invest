@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-11-20T20:51:23Z",
- "updatedLabel": "Sat 21 Nov, 00:15 Dubai",
+ "updatedAt": "2026-11-20T21:52:13Z",
+ "updatedLabel": "Sat 21 Nov, 01:50 Dubai",
  "regime": {
-  "score": 15,
-  "label": "Selloff, stressed",
-  "summary": "About 14:00 ET: S&P 500 about -2.1% (7,028), a 7th losing day and now in correction; Nasdaq 100 about -3.9%. VIX about 32. Micron -13%, Broadcom -12%, AMD -11%, Nvidia -7%. Fed's Cook warned waiting longer to hike risks falling behind. Stoxx 600 closed about -2%. Gold about -2.6%, Brent about $92, US 10-year about 4.94%."
+  "score": 10,
+  "label": "Panic selling",
+  "summary": "Fri close: S&P 500 6,910 (-3.7%), 10.7% below its record and a 7th losing day. Nasdaq -5.3%, chip index -8.3%, Nvidia -14%, Broadcom -11.5%. VIX 38.4, touched 40. 10-year about 4.91%, gold -4.5%. A Dec 9 Fed hike is still priced."
  },
- "brief": "The S&P 500 and the Dow are now in a correction (more than 10% below their records), chips lead the fall and a Fed governor sounded ready to raise rates. Do nothing new today: no lab trade, no rocket, HOLD Nvidia, and just log any filled limits (SPYM, Richemont, Eaton, Schneider).",
+ "brief": "Stocks had a 7th losing day: the S&P 500 closed -3.7%, VIX near 40, Nvidia -14% on a report of an SEC accounting review. Do not sell long-term holdings in this panic; place only a lower SPYM limit at $78.50 and log any filled orders.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,028",
-   "change": -2.1
+   "value": "6,910",
+   "change": -3.7
   },
   {
    "name": "Stoxx 600",
@@ -20,23 +20,23 @@
   },
   {
    "name": "VIX (fear)",
-   "value": "32.3",
-   "change": 13.7,
+   "value": "38.4",
+   "change": 34.9,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,532",
-   "change": -2.6
+   "value": "$3,519",
+   "change": -4.5
   },
   {
    "name": "Brent",
-   "value": "$92.14",
-   "change": 0.18
+   "value": "$91.89",
+   "change": -0.1
   },
   {
    "name": "US 10y",
-   "value": "4.94%",
+   "value": "4.91%",
    "change": null,
    "invert": true
   }
@@ -49,12 +49,6 @@
     "id": "cb3",
     "time": "18:15",
     "text": "CBRS: record the sale price so the lab log is right (Thu close $86.96)",
-    "done": false
-   },
-   {
-    "id": "lb4",
-    "time": "19:00",
-    "text": "Lab: no trade today. VIX about 32 (above 25). No rocket: Credo rejected by the red team",
     "done": false
    },
    {
@@ -85,19 +79,27 @@
  },
  "cards": [
   {
+   "ticker": "NVDA",
+   "call": "hold",
+   "why": "mixed",
+   "name": "Nvidia",
+   "trigger": "HOLD. No add. Never sell while VIX is above 30. Review only if the SEC opens a formal probe, Nvidia restates or cuts its growth guide.",
+   "story": "Fell 14% Fri on a report that the SEC is examining its accounting. Results were strong (revenue +103%), so most of the fall is fear."
+  },
+  {
    "ticker": "SPYM",
-   "call": "buy",
+   "call": "wait",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "Weekly slice: BUY 6 SPYM with a limit at $84.26 or lower, valid to Fri Nov 27. SPYM traded $82.50-84.58 Fri, so a placed order has filled.",
-   "story": "The 500 biggest US companies for 0.02% a year. 3.5% below its high after a -3% month."
+   "trigger": "WAIT. Place a limit BUY 6 SPYM at $78.50, good till Wed Dec 9. If it has not filled after the Fed decision, the Radar sets a new limit on Dec 10.",
+   "story": "The 500 biggest US companies for 0.02% a year. Closed $81.23 Fri, 11.7% below its high after a -10% month."
   },
   {
    "ticker": "CFR",
    "call": "wait",
    "why": "mixed",
    "name": "Richemont (Cartier) · Zurich",
-   "trigger": "WAIT. CFR fell to CHF 167.15 Fri, so the CHF 170 limit likely filled. After Nov 27: BUY 2 at CHF 168 or lower only if Hermes made no new low.",
+   "trigger": "WAIT. The CHF 170 limit likely filled (low CHF 167.15 Fri). After Nov 27: BUY 2 at CHF 168 or lower only if Hermes made no new low and CFR holds CHF 160.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -106,7 +108,7 @@
    "why": "mixed",
    "name": "Eaton",
    "trigger": "WAIT. Cancel the $335 limit if it did not fill Wed. ETN broke $311.92 Fri (low $310.61), so the Dec 4 review is off. Reconsider after 2 closes above $330.",
-   "story": "Sales +28% (organic +19%), full-year guide raised. 29% below its high at about 22x next year's profit."
+   "story": "Sales +28% (organic +19%), full-year guide raised. 35% below its high at about 22x next year's profit."
   },
   {
    "ticker": "GOOGL",
@@ -114,7 +116,7 @@
    "why": "mixed",
    "name": "Alphabet",
    "trigger": "The $288 limit filled. WAIT on a second slice until the 2027 capex figure (early Feb) and search growth of at least 12%.",
-   "story": "Cloud sales doubled (+103%) and search still grew 12%. Fell on a profit miss partly from a one-off investment loss."
+   "story": "Cloud sales doubled (+103%) and search still grew 12%. Now at a new 52-week low, 35% below its high."
   },
   {
    "ticker": "IFX",
@@ -137,7 +139,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "TSMC",
-   "trigger": "WAIT. About $322 Fri. BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
+   "trigger": "WAIT. Closed $319.34 Fri (-9.3%). BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
@@ -155,14 +157,6 @@
    "name": "Intuit",
    "trigger": "WATCH. No buy. Reconsider at the Mon Nov 23 close only if INTU holds above $272 and the call shows the AI hit stays in Credit Karma.",
    "story": "AI shows up in Intuit's guidance for the first time (Credit Karma cut). QuickBooks still grows about 19%."
-  },
-  {
-   "ticker": "MC",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Luxury: LVMH, Hermes, Moncler",
-   "trigger": "WATCH. No buy while Hermes makes new lows and LVMH Fashion & Leather shrinks. Reconsider after LVMH (late Jan) and Hermes (Feb) results.",
-   "story": "Part mood, but the core is weak: LVMH Fashion & Leather -5% organic in Q3 and the Moncler brand -1%."
   },
   {
    "ticker": "AVGO",
@@ -215,12 +209,8 @@
  ],
  "agenda": [
   {
-   "date": "Fri 20",
-   "event": "UMich 19:00 Dubai (51.5); Fed's Cook 21:15 Dubai; options expiry"
-  },
-  {
    "date": "Mon 23",
-   "event": "Zoom (after close); Intuit review at the close"
+   "event": "Fed's Williams speaks; Zoom, Keysight (after close); Intuit review"
   },
   {
    "date": "Tue 24",
