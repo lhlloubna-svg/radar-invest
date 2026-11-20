@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-11-20T18:51:14Z",
- "updatedLabel": "Fri 20 Nov, 22:45 Dubai",
+ "updatedAt": "2026-11-20T19:51:37Z",
+ "updatedLabel": "Fri 20 Nov, 23:25 Dubai",
  "regime": {
-  "score": 16,
+  "score": 15,
   "label": "Selloff, stressed",
-  "summary": "At about 13:00 ET the S&P 500 is about -2.2% (7,015), a 7th losing day, and VIX about 32, the highest since March. Broadcom -12%, AMD -11%, Micron -11%. Stoxx 600 closed -2.0%. Gold about -3%, Brent about $89-92, US 10-year about 4.93%."
+  "summary": "About 14:00 ET: S&P 500 about -2.1% (7,028), a 7th losing day and now in correction; Nasdaq 100 about -3.9%. VIX about 32. Micron -13%, Broadcom -12%, AMD -11%. Fed's Cook leans to a hike. Stoxx 600 closed -2%. Gold about -2.6%, Brent about $92, US 10-year about 4.94%."
  },
- "brief": "The AI selloff got worse after midday: S&P 500 about -2.2%, VIX about 32, Broadcom -12% on a reported Google order cut. Do nothing new today: no lab trade, no rocket, HOLD Nvidia, and just log any filled limits (SPYM, Richemont).",
+ "brief": "The S&P 500 and the Dow are now in a correction (more than 10% below their records), chips lead the fall and a Fed governor sounded ready to raise rates. Do nothing new today: no lab trade, no rocket, HOLD Nvidia, and just log any filled limits (SPYM, Richemont, Eaton, Schneider).",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,015",
-   "change": -2.2
+   "value": "7,028",
+   "change": -2.1
   },
   {
    "name": "Stoxx 600",
@@ -26,17 +26,17 @@
   },
   {
    "name": "Gold",
-   "value": "$3,539",
-   "change": -4.0
+   "value": "$3,532",
+   "change": -2.6
   },
   {
    "name": "Brent",
-   "value": "$88.94",
-   "change": -0.56
+   "value": "$92.14",
+   "change": 0.18
   },
   {
    "name": "US 10y",
-   "value": "4.95%",
+   "value": "4.94%",
    "change": null,
    "invert": true
   }
@@ -54,7 +54,7 @@
    {
     "id": "lb4",
     "time": "19:00",
-    "text": "Lab: no trade today. VIX about 31 (above 25). No rocket: Credo rejected by the red team",
+    "text": "Lab: no trade today. VIX about 32 (above 25). No rocket: Credo rejected by the red team",
     "done": false
    },
    {
@@ -66,7 +66,7 @@
    {
     "id": "su5",
     "time": "12:30",
-    "text": "Schneider stays WAIT: cancel the EUR 235 limit if placed (it would fill at about EUR 228)",
+    "text": "Schneider is WAIT: if the EUR 235 limit was open Fri, it filled (close EUR 226.55). If yes, log it",
     "done": false
    },
    {
@@ -78,7 +78,7 @@
    {
     "id": "etn7",
     "time": "17:00",
-    "text": "Eaton is WAIT: cancel the $335 limit if it did not fill Wed. Dec 4 review off (new low $310.61)",
+    "text": "Eaton is WAIT: place no new order. Dec 4 review is off (new 52-week low $310.61 Fri)",
     "done": false
    }
   ]
@@ -96,7 +96,7 @@
    "ticker": "CFR",
    "call": "wait",
    "why": "mixed",
-   "name": "Richemont (Cartier) \u00b7 Zurich",
+   "name": "Richemont (Cartier) · Zurich",
    "trigger": "WAIT. CFR fell to CHF 167.15 Fri, so the CHF 170 limit likely filled. After Nov 27: BUY 2 at CHF 168 or lower only if Hermes made no new low.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
@@ -120,7 +120,7 @@
    "ticker": "IFX",
    "call": "wait",
    "why": "mixed",
-   "name": "Infineon \u00b7 Xetra",
+   "name": "Infineon · Xetra",
    "trigger": "WAIT. No order. Fri close EUR 45.44, below EUR 46, so the Nov 27 review is off. Reconsider after 3 closes above EUR 48.50 and no new US chip rule.",
    "story": "Guides next year +22% on data-center power chips, but the cash flow guide is below hopes. The drop is chip-sector mood."
   },
@@ -128,7 +128,7 @@
    "ticker": "SU",
    "call": "wait",
    "why": "mixed",
-   "name": "Schneider Electric \u00b7 Paris",
+   "name": "Schneider Electric · Paris",
    "trigger": "WAIT. Cancel the EUR 235 limit if placed. No new order before full-year results (late Feb 2027); then BUY 2 at EUR 224 only if a cash flow guide is given.",
    "story": "Organic growth +16.9%, record backlog, guidance raised. Fell on the PTC deal and a Middle East warning, not slower demand."
   },
@@ -208,7 +208,7 @@
    "ticker": "ENR",
    "call": "watch",
    "why": "mixed",
-   "name": "Siemens Energy \u00b7 Xetra",
+   "name": "Siemens Energy · Xetra",
    "trigger": "WATCH. No buy in this selloff. Reconsider after Q1 results (Thu Feb 11, 2027) only if orders keep growing and the FY2027 guide is kept.",
    "story": "Record backlog EUR 164bn and revenue guided +14-16%, but the wind unit shrinks. Mixed, not mood."
   }
