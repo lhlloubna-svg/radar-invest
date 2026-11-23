@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-20T21:52:13Z",
- "updatedLabel": "Sat 21 Nov, 01:50 Dubai",
+ "updatedAt": "2026-11-23T15:51:39Z",
+ "updatedLabel": "Mon 23 Nov, 19:15 Dubai",
  "regime": {
-  "score": 10,
-  "label": "Panic selling",
-  "summary": "Fri close: S&P 500 6,910 (-3.7%), 10.7% below its record and a 7th losing day. Nasdaq -5.3%, chip index -8.3%, Nvidia -14%, Broadcom -11.5%. VIX 38.4, touched 40. 10-year about 4.91%, gold -4.5%. A Dec 9 Fed hike is still priced."
+  "score": 25,
+  "label": "Stress, relief bounce",
+  "summary": "Fri: S&P 500 -3.7% (about 6,910), a 7th losing day. Mon: futures up strongly, Nvidia reinstates Huang, oil down about 2%, gold up. VIX about 30. 10-year about 4.95%. A Dec 9 hike is about 96% priced; PCE inflation Wed."
  },
- "brief": "Stocks had a 7th losing day: the S&P 500 closed -3.7%, VIX near 40, Nvidia -14% on a report of an SEC accounting review. Do not sell long-term holdings in this panic; place only a lower SPYM limit at $78.50 and log any filled orders.",
+ "brief": "Stocks bounce Monday after Nvidia's board brought back Jensen Huang as CEO, but VIX is still near 30 and a Fed hike is priced for Dec 9. Hold Nvidia, place no new order beyond the $78.50 SPYM limit, and skip the lab: no clean mood drop passed the red team today.",
  "pulse": [
   {
    "name": "S&P 500",
@@ -15,64 +15,64 @@
   },
   {
    "name": "Stoxx 600",
-   "value": "626",
-   "change": -2.0
+   "value": "630",
+   "change": 0.7
   },
   {
    "name": "VIX (fear)",
-   "value": "38.4",
-   "change": 34.9,
+   "value": "30.1",
+   "change": -16.2,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,519",
-   "change": -4.5
+   "value": "$3,675",
+   "change": 3.0
   },
   {
    "name": "Brent",
-   "value": "$91.89",
-   "change": -0.1
+   "value": "$90.70",
+   "change": -2.0
   },
   {
    "name": "US 10y",
-   "value": "4.91%",
+   "value": "4.96%",
    "change": null,
    "invert": true
   }
  ],
  "todo": {
-  "date": "2026-11-20",
-  "focus": "Stressed market (VIX near 30). No lab trade, no rocket. Cancel stale limits, HOLD Nvidia.",
+  "date": "2026-11-23",
+  "focus": "Relief bounce, VIX still near 30. Hold Nvidia, no lab trade, keep the $78.50 SPYM limit.",
   "items": [
    {
-    "id": "cb3",
+    "id": "m1",
     "time": "18:15",
-    "text": "CBRS: record the sale price so the lab log is right (Thu close $86.96)",
+    "text": "Open the Radar: no lab trade or rocket while VIX is above 25 (about 30 this morning)",
     "done": false
    },
    {
-    "id": "e",
+    "id": "m2",
     "time": "",
-    "text": "Saturday: read the lab weekly review and write down 1 lesson",
+    "text": "SPYM is WAIT: place a limit BUY 6 at $78.50 today, good till Wed Dec 9",
     "done": false
    },
    {
-    "id": "su5",
-    "time": "12:30",
-    "text": "Schneider is WAIT: if the EUR 235 limit was open Fri, it filled (close EUR 226.55). If yes, log it",
+    "id": "m3",
+    "time": "18:30",
+    "text": "Nvidia: board brought back Huang as CEO today. HOLD, do not add on the bounce",
     "done": false
    },
    {
-    "id": "cfr6",
-    "time": "17:00",
-    "text": "Richemont: CFR fell to CHF 167.15 Fri, so the CHF 170 limit likely filled. If yes, log it",
+    "id": "m4",
+    "time": "",
+    "text": "Lab rules: place the hard stop order right after buying",
     "done": false
    },
    {
-    "id": "etn7",
-    "time": "17:00",
-    "text": "Eaton is WAIT: place no new order. Dec 4 review is off (new 52-week low $310.61 Fri)",
+    "id": "m5",
+    "time": "",
+    "text": "Check open lab trades: none open once the Cerebras sale is recorded",
     "done": false
    }
   ]
@@ -83,8 +83,16 @@
    "call": "hold",
    "why": "mixed",
    "name": "Nvidia",
-   "trigger": "HOLD. No add. Never sell while VIX is above 30. Review only if the SEC opens a formal probe, Nvidia restates or cuts its growth guide.",
-   "story": "Fell 14% Fri on a report that the SEC is examining its accounting. Results were strong (revenue +103%), so most of the fall is fear."
+   "trigger": "HOLD. No add on the bounce. Review only if the SEC files charges, Nvidia restates results or cuts its growth guide.",
+   "story": "The CEO question is settled, which removes one fear. The SEC probe is still open and receivables rose to about 64 days of sales."
+  },
+  {
+   "ticker": "NVDA",
+   "call": "hold",
+   "why": "event",
+   "name": "EVENT: Nvidia brings back Huang as CEO",
+   "trigger": "HOLD. Do not chase the bounce. No lab trade or rocket while VIX is above 25. SPYM limit stays at $78.50.",
+   "story": "US futures jump after 7 losing days. A relief bounce inside a correction: a Dec 9 Fed hike is still about 96% priced."
   },
   {
    "ticker": "SPYM",
@@ -92,14 +100,14 @@
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
    "trigger": "WAIT. Place a limit BUY 6 SPYM at $78.50, good till Wed Dec 9. If it has not filled after the Fed decision, the Radar sets a new limit on Dec 10.",
-   "story": "The 500 biggest US companies for 0.02% a year. Closed $81.23 Fri, 11.7% below its high after a -10% month."
+   "story": "The 500 biggest US companies for 0.02% a year. Bought only lower while the correction runs."
   },
   {
    "ticker": "CFR",
    "call": "wait",
    "why": "mixed",
    "name": "Richemont (Cartier) · Zurich",
-   "trigger": "WAIT. The CHF 170 limit likely filled (low CHF 167.15 Fri). After Nov 27: BUY 2 at CHF 168 or lower only if Hermes made no new low and CFR holds CHF 160.",
+   "trigger": "WAIT. No new order today. After the Fri Nov 27 close: BUY 2 at CHF 168 or that close, whichever is lower, only if Hermes made no new low and CFR holds CHF 160.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -107,8 +115,8 @@
    "call": "wait",
    "why": "mixed",
    "name": "Eaton",
-   "trigger": "WAIT. Cancel the $335 limit if it did not fill Wed. ETN broke $311.92 Fri (low $310.61), so the Dec 4 review is off. Reconsider after 2 closes above $330.",
-   "story": "Sales +28% (organic +19%), full-year guide raised. 35% below its high at about 22x next year's profit."
+   "trigger": "WAIT. Cancel the $335 limit if it did not fill. ETN broke $311.92 Fri, so the Dec 4 review is off. Reconsider only after 2 closes in a row above $330.",
+   "story": "Sales +28% (organic +19%), full-year guide raised. 29% below its high at about 22x next year's profit."
   },
   {
    "ticker": "GOOGL",
@@ -116,7 +124,7 @@
    "why": "mixed",
    "name": "Alphabet",
    "trigger": "The $288 limit filled. WAIT on a second slice until the 2027 capex figure (early Feb) and search growth of at least 12%.",
-   "story": "Cloud sales doubled (+103%) and search still grew 12%. Now at a new 52-week low, 35% below its high."
+   "story": "Cloud sales doubled (+103%) and search still grew 12%. The Oct 29 profit miss was partly an $8.7B one-off investment loss."
   },
   {
    "ticker": "IFX",
@@ -127,11 +135,19 @@
    "story": "Guides next year +22% on data-center power chips, but the cash flow guide is below hopes. The drop is chip-sector mood."
   },
   {
+   "ticker": "MSFT",
+   "call": "wait",
+   "why": "mixed",
+   "name": "Microsoft",
+   "trigger": "WAIT. No order now. After the Fed decision (Wed Dec 9): BUY 1 with a limit at $460, only if VIX is below 25 and MSFT has not closed below $440.",
+   "story": "Revenue grows about 19% with Azure +48%. But bookings fell and capex is about $170B a year, so buy only lower."
+  },
+  {
    "ticker": "SU",
    "call": "wait",
    "why": "mixed",
    "name": "Schneider Electric · Paris",
-   "trigger": "WAIT. Cancel the EUR 235 limit if placed. No new order before full-year results (late Feb 2027); then BUY 2 at EUR 224 only if a cash flow guide is given.",
+   "trigger": "WAIT. Cancel the EUR 235 limit if placed: SU trades about EUR 228. No new order before full-year results (late Feb 2027); then BUY 2 at EUR 224 if a cash flow guide is given.",
    "story": "Organic growth +16.9%, record backlog, guidance raised. Fell on the PTC deal and a Middle East warning, not slower demand."
   },
   {
@@ -139,7 +155,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "TSMC",
-   "trigger": "WAIT. Closed $319.34 Fri (-9.3%). BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
+   "trigger": "WAIT. BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower.",
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
@@ -149,14 +165,6 @@
    "name": "Software AI fear: Salesforce, SAP",
    "trigger": "WATCH. No buy before Salesforce results Wed Dec 2. From Fri Dec 4: reconsider 2 CRM at or below that close if organic growth holds and no guide is cut.",
    "story": "Without acquisitions Salesforce grows only about 6-7%. Cheap at about 15x next year's profit, but not yet a buy."
-  },
-  {
-   "ticker": "INTU",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Intuit",
-   "trigger": "WATCH. No buy. Reconsider at the Mon Nov 23 close only if INTU holds above $272 and the call shows the AI hit stays in Credit Karma.",
-   "story": "AI shows up in Intuit's guidance for the first time (Credit Karma cut). QuickBooks still grows about 19%."
   },
   {
    "ticker": "AVGO",
@@ -199,34 +207,38 @@
    "story": "Revenue +22% and procedures +15%, but price cuts lower revenue per procedure. About 34x next year's profit, not cheap."
   },
   {
-   "ticker": "ENR",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Siemens Energy · Xetra",
-   "trigger": "WATCH. No buy in this selloff. Reconsider after Q1 results (Thu Feb 11, 2027) only if orders keep growing and the FY2027 guide is kept.",
-   "story": "Record backlog EUR 164bn and revenue guided +14-16%, but the wind unit shrinks. Mixed, not mood."
+   "ticker": "NEM",
+   "call": "avoid",
+   "why": "business",
+   "name": "Nemetschek · Xetra",
+   "trigger": "AVOID. No buy. Reconsider only after Q4 results (Feb 2027) if organic growth is back above 15%.",
+   "story": "Fell about 5.5% on a JPMorgan downgrade. Organic growth missed and is slowing while banks cut forecasts: a business drop."
   }
  ],
  "agenda": [
   {
    "date": "Mon 23",
-   "event": "Fed's Williams speaks; Zoom, Keysight (after close); Intuit review"
+   "event": "Zoom, HPE, Agilent (after close)"
   },
   {
    "date": "Tue 24",
-   "event": "Dell, HP, Workday, Medtronic, Analog Devices, Best Buy"
+   "event": "Medtronic, Analog Devices; Dell, HP, Workday (after close)"
   },
   {
    "date": "Wed 25",
-   "event": "US GDP and PCE inflation 17:30 Dubai; Deere"
+   "event": "US PCE inflation and Q3 GDP 17:30 Dubai; Deere"
   },
   {
    "date": "Thu 26",
    "event": "US markets closed (Thanksgiving)"
   },
   {
+   "date": "Fri 27",
+   "event": "Short US session, closes 22:00 Dubai"
+  },
+  {
    "date": "Tue 1",
-   "event": "CrowdStrike, Marvell, Credo (after close)"
+   "event": "CrowdStrike, Marvell (after close)"
   },
   {
    "date": "Wed 2",
