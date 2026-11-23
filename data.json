@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-11-23T16:51:57Z",
- "updatedLabel": "Mon 23 Nov, 20:55 Dubai",
+ "updatedAt": "2026-11-23T17:51:27Z",
+ "updatedLabel": "Mon 23 Nov, 21:45 Dubai",
  "regime": {
   "score": 42,
   "label": "Stress easing, relief rally",
-  "summary": "Mon: S&P 500 +5.1% after 7 losing days, Nasdaq +7%, Nvidia +34% on Huang's return. VIX about 27, down from about 36 Fri. A Dec 9 Fed hike is still priced; PCE inflation Wed 17:30 Dubai is the next test. US closed Thu, early close Fri."
+  "summary": "Mon noon: S&P 500 +4.8%, Nasdaq +6.6%, Nvidia +32% on Huang's return. VIX about 28.6, down from about 36 Fri but not below 25 today. A Dec 9 Fed hike is still priced; PCE inflation Wed 17:30 Dubai is the next test. US closed Thu, early close Fri."
  },
- "brief": "US stocks jump about 5% after Nvidia brought back Huang: Nvidia is up about 34% (about $169) and VIX fell to about 27, still above 25. Hold Nvidia, keep the $78.50 SPYM limit, no lab trade today; CrowdStrike's 9-10% drop on its Zscaler deal is WATCH, not a buy.",
+ "brief": "US stocks hold a rally of almost 5% at noon after Nvidia brought back Huang: Nvidia is up about 32% (about $166) and VIX is about 28.6, still above 25. Hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket today.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,264",
-   "change": 5.1
+   "value": "7,240",
+   "change": 4.8
   },
   {
    "name": "Stoxx 600",
@@ -20,19 +20,19 @@
   },
   {
    "name": "VIX (fear)",
-   "value": "27.3",
-   "change": -24.0,
+   "value": "28.6",
+   "change": -20.2,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,672",
-   "change": 4.5
+   "value": "$3,662",
+   "change": 4.2
   },
   {
    "name": "Brent",
-   "value": "$89.10",
-   "change": -3.7
+   "value": "$90.0",
+   "change": -2.8
   },
   {
    "name": "US 10y",
@@ -48,7 +48,7 @@
    {
     "id": "m1",
     "time": "18:15",
-    "text": "Open the Radar: no lab trade or rocket while VIX is above 25 (about 27 at 11:00 ET)",
+    "text": "Open the Radar: no lab trade or rocket while VIX is above 25 (about 28.6 at 12:00 ET)",
     "done": false
    },
    {
@@ -60,7 +60,7 @@
    {
     "id": "m3",
     "time": "18:30",
-    "text": "Nvidia +34% today on Huang's return. HOLD: do not add, do not sell the jump",
+    "text": "Nvidia about +32% today on Huang's return. HOLD: do not add, do not sell the jump",
     "done": false
    },
    {
