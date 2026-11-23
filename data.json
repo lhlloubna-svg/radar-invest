@@ -1,54 +1,54 @@
 {
- "updatedAt": "2026-11-23T15:51:39Z",
- "updatedLabel": "Mon 23 Nov, 19:15 Dubai",
+ "updatedAt": "2026-11-23T16:51:57Z",
+ "updatedLabel": "Mon 23 Nov, 20:55 Dubai",
  "regime": {
-  "score": 25,
-  "label": "Stress, relief bounce",
-  "summary": "Fri: S&P 500 -3.7% (about 6,910), a 7th losing day. Mon: futures up strongly, Nvidia reinstates Huang, oil down about 2%, gold up. VIX about 30. 10-year about 4.95%. A Dec 9 hike is about 96% priced; PCE inflation Wed."
+  "score": 42,
+  "label": "Stress easing, relief rally",
+  "summary": "Mon: S&P 500 +5.1% after 7 losing days, Nasdaq +7%, Nvidia +34% on Huang's return. VIX about 27, down from about 36 Fri. A Dec 9 Fed hike is still priced; PCE inflation Wed 17:30 Dubai is the next test. US closed Thu, early close Fri."
  },
- "brief": "Stocks bounce Monday after Nvidia's board brought back Jensen Huang as CEO, but VIX is still near 30 and a Fed hike is priced for Dec 9. Hold Nvidia, place no new order beyond the $78.50 SPYM limit, and skip the lab: no clean mood drop passed the red team today.",
+ "brief": "US stocks jump about 5% after Nvidia brought back Huang: Nvidia is up about 34% (about $169) and VIX fell to about 27, still above 25. Hold Nvidia, keep the $78.50 SPYM limit, no lab trade today; CrowdStrike's 9-10% drop on its Zscaler deal is WATCH, not a buy.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "6,910",
-   "change": -3.7
+   "value": "7,264",
+   "change": 5.1
   },
   {
    "name": "Stoxx 600",
-   "value": "630",
-   "change": 0.7
+   "value": "636",
+   "change": 1.6
   },
   {
    "name": "VIX (fear)",
-   "value": "30.1",
-   "change": -16.2,
+   "value": "27.3",
+   "change": -24.0,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,675",
-   "change": 3.0
+   "value": "$3,672",
+   "change": 4.5
   },
   {
    "name": "Brent",
-   "value": "$90.70",
-   "change": -2.0
+   "value": "$89.10",
+   "change": -3.7
   },
   {
    "name": "US 10y",
-   "value": "4.96%",
+   "value": "4.95%",
    "change": null,
    "invert": true
   }
  ],
  "todo": {
   "date": "2026-11-23",
-  "focus": "Relief bounce, VIX still near 30. Hold Nvidia, no lab trade, keep the $78.50 SPYM limit.",
+  "focus": "Big relief rally, VIX still about 27. Hold Nvidia, no lab trade, keep the $78.50 SPYM limit.",
   "items": [
    {
     "id": "m1",
     "time": "18:15",
-    "text": "Open the Radar: no lab trade or rocket while VIX is above 25 (about 30 this morning)",
+    "text": "Open the Radar: no lab trade or rocket while VIX is above 25 (about 27 at 11:00 ET)",
     "done": false
    },
    {
@@ -60,7 +60,7 @@
    {
     "id": "m3",
     "time": "18:30",
-    "text": "Nvidia: board brought back Huang as CEO today. HOLD, do not add on the bounce",
+    "text": "Nvidia +34% today on Huang's return. HOLD: do not add, do not sell the jump",
     "done": false
    },
    {
@@ -81,18 +81,10 @@
   {
    "ticker": "NVDA",
    "call": "hold",
-   "why": "mixed",
-   "name": "Nvidia",
-   "trigger": "HOLD. No add on the bounce. Review only if the SEC files charges, Nvidia restates results or cuts its growth guide.",
-   "story": "The CEO question is settled, which removes one fear. The SEC probe is still open and receivables rose to about 64 days of sales."
-  },
-  {
-   "ticker": "NVDA",
-   "call": "hold",
    "why": "event",
    "name": "EVENT: Nvidia brings back Huang as CEO",
-   "trigger": "HOLD. Do not chase the bounce. No lab trade or rocket while VIX is above 25. SPYM limit stays at $78.50.",
-   "story": "US futures jump after 7 losing days. A relief bounce inside a correction: a Dec 9 Fed hike is still about 96% priced."
+   "trigger": "HOLD. Do not chase the jump. Review only if the SEC files charges, Nvidia restates or cuts its growth guide. No lab trade while VIX is above 25.",
+   "story": "A relief rally inside a correction: Nvidia is still about 20% below a month ago and the probe is open. A Dec 9 Fed hike is still priced."
   },
   {
    "ticker": "SPYM",
@@ -207,12 +199,12 @@
    "story": "Revenue +22% and procedures +15%, but price cuts lower revenue per procedure. About 34x next year's profit, not cheap."
   },
   {
-   "ticker": "NEM",
-   "call": "avoid",
-   "why": "business",
-   "name": "Nemetschek · Xetra",
-   "trigger": "AVOID. No buy. Reconsider only after Q4 results (Feb 2027) if organic growth is back above 15%.",
-   "story": "Fell about 5.5% on a JPMorgan downgrade. Organic growth missed and is slowing while banks cut forecasts: a business drop."
+   "ticker": "CRWD",
+   "call": "watch",
+   "why": "mixed",
+   "name": "CrowdStrike buys Zscaler",
+   "trigger": "WATCH. No buy. Reconsider only after the deal filing (S-4) shows Zscaler's numbers and CRWD holds above $210 for a week.",
+   "story": "Fell about 9-10% on an all-stock deal for Zscaler, a slower grower. The quarter is fine but the Q4 guide slows; JPMorgan sees dilution."
   }
  ],
  "agenda": [
