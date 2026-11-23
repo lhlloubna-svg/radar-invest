@@ -1,17 +1,17 @@
 {
- "updatedAt": "2026-11-23T20:51:28Z",
- "updatedLabel": "Tue 24 Nov, 00:20 Dubai",
+ "updatedAt": "2026-11-23T21:52:15Z",
+ "updatedLabel": "Tue 24 Nov, 01:55 Dubai",
  "regime": {
-  "score": 43,
+  "score": 44,
   "label": "Stress easing, relief rally",
-  "summary": "Mon 15:12 ET: S&P 500 +4.9% (about 7,246), Nvidia +31% on Huang's return, Stoxx 600 closed +1.9%. VIX about 27.3, down from 35.9 Fri but still above 25. Nomura calls the rally mechanical (short covering). Dec hike odds about 96% (CME via Fox Business); PCE Wed 17:30 Dubai is the next test."
+  "summary": "Mon close: S&P 500 +5.0% (7,253.65), Nasdaq +6.9%, Nvidia +32% on Huang's return. VIX about 27.6, down from 35.9 Fri but still above 25. Dec hike odds about 96% (CME via Fox Business). PCE and GDP Wed 17:30 Dubai are the next test."
  },
- "brief": "The rally holds into the last hour (15:12 ET): S&P 500 +4.9%, Nvidia +31% (about $164.70), VIX about 27.3, still above 25. Hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket today.",
+ "brief": "Biggest US jump since April 2025: S&P 500 closed +5.0%, Nvidia +32% to $166.08, but VIX closed about 27.6, still above 25. HOLD Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket until VIX is back under 25.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,246",
-   "change": 4.9
+   "value": "7,254",
+   "change": 5.0
   },
   {
    "name": "Stoxx 600",
@@ -20,53 +20,41 @@
   },
   {
    "name": "VIX (fear)",
-   "value": "27.3",
-   "change": -24.0,
+   "value": "27.6",
+   "change": -23.0,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,641",
-   "change": 3.6
+   "value": "$3,668",
+   "change": 4.3
   },
   {
    "name": "Brent",
-   "value": "$86.5",
-   "change": -3.9
+   "value": "$89.9",
+   "change": -2.9
   },
   {
    "name": "US 10y",
-   "value": "4.92%",
+   "value": "4.95%",
    "change": null,
    "invert": true
   }
  ],
  "todo": {
   "date": "2026-11-23",
-  "focus": "Big relief rally, VIX still about 27.3 at 15:00 ET. Hold Nvidia, no lab trade, keep the $78.50 SPYM limit.",
+  "focus": "Market closed +5%, VIX about 27.6. Hold Nvidia, no lab trade, keep the $78.50 SPYM limit.",
   "items": [
-   {
-    "id": "m1",
-    "time": "18:15",
-    "text": "Open the Radar: no lab trade or rocket while VIX is above 25 (about 27.2 at 13:15 ET)",
-    "done": false
-   },
    {
     "id": "m2",
     "time": "",
-    "text": "SPYM is WAIT: place a limit BUY 6 at $78.50 today, good till Wed Dec 9",
-    "done": false
-   },
-   {
-    "id": "m3",
-    "time": "18:30",
-    "text": "Nvidia about +31% today on Huang's return. HOLD: do not add, do not sell the jump",
+    "text": "SPYM is WAIT: if not placed yet, place a limit BUY 6 at $78.50, good till Wed Dec 9",
     "done": false
    },
    {
     "id": "m4",
     "time": "",
-    "text": "Lab rules: place the hard stop order right after buying",
+    "text": "Lab rules: no lab trade while VIX is above 25. Hard stop right after buying",
     "done": false
    },
    {
@@ -209,10 +197,6 @@
  ],
  "agenda": [
   {
-   "date": "Mon 23",
-   "event": "Zoom, HPE, Agilent (after close); Fed's Williams speaks"
-  },
-  {
    "date": "Tue 24",
    "event": "Consumer confidence; Medtronic, Analog Devices; Dell, HP, Workday (after close)"
   },
@@ -230,7 +214,7 @@
   },
   {
    "date": "Tue 1",
-   "event": "CrowdStrike, Marvell (after close)"
+   "event": "CrowdStrike, Marvell, Credo, MongoDB (after close)"
   },
   {
    "date": "Wed 2",
