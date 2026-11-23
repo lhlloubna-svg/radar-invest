@@ -1,42 +1,42 @@
 {
- "updatedAt": "2026-11-23T17:51:27Z",
- "updatedLabel": "Mon 23 Nov, 21:45 Dubai",
+ "updatedAt": "2026-11-23T19:51:33Z",
+ "updatedLabel": "Mon 23 Nov, 23:45 Dubai",
  "regime": {
-  "score": 42,
+  "score": 43,
   "label": "Stress easing, relief rally",
-  "summary": "Mon noon: S&P 500 +4.8%, Nasdaq +6.6%, Nvidia +32% on Huang's return. VIX about 28.6, down from about 36 Fri but not below 25 today. A Dec 9 Fed hike is still priced; PCE inflation Wed 17:30 Dubai is the next test. US closed Thu, early close Fri."
+  "summary": "Mon 14:15 ET: S&P 500 +4.9% (7,251), Nvidia +31% on Huang's return, Stoxx 600 closed +1.9%. VIX about 27.0, down from 35.9 Fri but still above 25. Nomura calls the rally mechanical (short covering). Dec 9 Fed hike odds about 91-96% (down from about 99% last week); PCE Wed 17:30 Dubai is the next test."
  },
- "brief": "US stocks hold a rally of almost 5% at noon after Nvidia brought back Huang: Nvidia is up about 32% (about $166) and VIX is about 28.6, still above 25. Hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket today.",
+ "brief": "The rally holds at 14:15 ET: S&P 500 +4.9%, Nvidia +31% (about $164.50), but VIX is still about 27, above 25. Hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket today.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,240",
-   "change": 4.8
+   "value": "7,251",
+   "change": 4.9
   },
   {
    "name": "Stoxx 600",
-   "value": "636",
-   "change": 1.6
+   "value": "638",
+   "change": 1.9
   },
   {
    "name": "VIX (fear)",
-   "value": "28.6",
-   "change": -20.2,
+   "value": "27.0",
+   "change": -24.8,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,662",
-   "change": 4.2
+   "value": "$3,657",
+   "change": 3.4
   },
   {
    "name": "Brent",
-   "value": "$90.0",
-   "change": -2.8
+   "value": "$89.7",
+   "change": -3.1
   },
   {
    "name": "US 10y",
-   "value": "4.95%",
+   "value": "4.94%",
    "change": null,
    "invert": true
   }
@@ -48,7 +48,7 @@
    {
     "id": "m1",
     "time": "18:15",
-    "text": "Open the Radar: no lab trade or rocket while VIX is above 25 (about 28.6 at 12:00 ET)",
+    "text": "Open the Radar: no lab trade or rocket while VIX is above 25 (about 27.2 at 13:15 ET)",
     "done": false
    },
    {
@@ -60,7 +60,7 @@
    {
     "id": "m3",
     "time": "18:30",
-    "text": "Nvidia about +32% today on Huang's return. HOLD: do not add, do not sell the jump",
+    "text": "Nvidia about +31% today on Huang's return. HOLD: do not add, do not sell the jump",
     "done": false
    },
    {
@@ -99,7 +99,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Richemont (Cartier) · Zurich",
-   "trigger": "WAIT. No new order today. After the Fri Nov 27 close: BUY 2 at CHF 168 or that close, whichever is lower, only if Hermes made no new low and CFR holds CHF 160.",
+   "trigger": "WAIT. No new order today. After the Fri Nov 27 close: BUY 2 at CHF 168 or that close, whichever is lower, only if Hermes made no new 52-week low and CFR closed above CHF 160.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -107,7 +107,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Eaton",
-   "trigger": "WAIT. Cancel the $335 limit if it did not fill. ETN broke $311.92 Fri, so the Dec 4 review is off. Reconsider only after 2 closes in a row above $330.",
+   "trigger": "WAIT. Cancel the $335 limit if it did not fill. Mon may be the 1st close above $330 (about $337 at 13:17 ET). Reconsider only after 2 closes in a row above $330.",
    "story": "Sales +28% (organic +19%), full-year guide raised. 29% below its high at about 22x next year's profit."
   },
   {
@@ -123,7 +123,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Infineon · Xetra",
-   "trigger": "WAIT. No order. Fri close EUR 45.44, below EUR 46, so the Nov 27 review is off. Reconsider after 3 closes above EUR 48.50 and no new US chip rule.",
+   "trigger": "WAIT. No order. Mon close EUR 48.42, just below EUR 48.50. Reconsider only after 3 closes in a row above EUR 48.50 and no new US chip export rule hits Europe.",
    "story": "Guides next year +22% on data-center power chips, but the cash flow guide is below hopes. The drop is chip-sector mood."
   },
   {
@@ -139,7 +139,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Schneider Electric · Paris",
-   "trigger": "WAIT. Cancel the EUR 235 limit if placed: SU trades about EUR 228. No new order before full-year results (late Feb 2027); then BUY 2 at EUR 224 if a cash flow guide is given.",
+   "trigger": "WAIT. Cancel the EUR 235 limit if placed: SU closed EUR 235.85 Mon. No new order before full-year results (about Feb 25-26, 2027); then BUY 2 at EUR 224 if a cash-flow guide is given.",
    "story": "Organic growth +16.9%, record backlog, guidance raised. Fell on the PTC deal and a Middle East warning, not slower demand."
   },
   {
@@ -165,14 +165,6 @@
    "name": "Broadcom",
    "trigger": "WATCH. No buy before results (Wed Dec 9). Reconsider Fri Dec 11 only if the AI chip guide is kept and Google orders are not confirmed lower.",
    "story": "Revenue +86% and AI chips +221%, but a report of a Google order cut hit it -12%. Non-AI chips grow only low single digits."
-  },
-  {
-   "ticker": "CAT",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Caterpillar",
-   "trigger": "WATCH. No buy in this selloff. Reconsider after Q4 results and the 2027 guide (Wed Jan 28, 2027) only if sales growth stays mid-teens.",
-   "story": "Q3 sales +17%, record backlog, Power Generation +30%. But tariffs cost about $2.2B and the price now moves with AI sentiment."
   },
   {
    "ticker": "CRDO",
@@ -205,16 +197,24 @@
    "name": "CrowdStrike buys Zscaler",
    "trigger": "WATCH. No buy. Reconsider only after the deal filing (S-4) shows Zscaler's numbers and CRWD holds above $210 for a week.",
    "story": "Fell about 9-10% on an all-stock deal for Zscaler, a slower grower. The quarter is fine but the Q4 guide slows; JPMorgan sees dilution."
+  },
+  {
+   "ticker": "UNH",
+   "call": "watch",
+   "why": "business",
+   "name": "Health insurers: UNH, Humana, CVS",
+   "trigger": "WATCH. No buy. Reconsider UNH only after its 2027 outlook (promised before year end), and only if it closes above $360 after it.",
+   "story": "Two proposed Medicare rules hit insurers' main profit pool from 2028. Profits are fine today, but UNH revenue fell 0.4%."
   }
  ],
  "agenda": [
   {
    "date": "Mon 23",
-   "event": "Zoom, HPE, Agilent (after close)"
+   "event": "Zoom, HPE, Agilent (after close); Fed's Williams speaks"
   },
   {
    "date": "Tue 24",
-   "event": "Medtronic, Analog Devices; Dell, HP, Workday (after close)"
+   "event": "Consumer confidence; Medtronic, Analog Devices; Dell, HP, Workday (after close)"
   },
   {
    "date": "Wed 25",
