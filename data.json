@@ -1,16 +1,16 @@
 {
- "updatedAt": "2026-11-23T19:51:33Z",
- "updatedLabel": "Mon 23 Nov, 23:45 Dubai",
+ "updatedAt": "2026-11-23T20:51:28Z",
+ "updatedLabel": "Tue 24 Nov, 00:20 Dubai",
  "regime": {
   "score": 43,
   "label": "Stress easing, relief rally",
-  "summary": "Mon 14:15 ET: S&P 500 +4.9% (7,251), Nvidia +31% on Huang's return, Stoxx 600 closed +1.9%. VIX about 27.0, down from 35.9 Fri but still above 25. Nomura calls the rally mechanical (short covering). Dec 9 Fed hike odds about 91-96% (down from about 99% last week); PCE Wed 17:30 Dubai is the next test."
+  "summary": "Mon 15:12 ET: S&P 500 +4.9% (about 7,246), Nvidia +31% on Huang's return, Stoxx 600 closed +1.9%. VIX about 27.3, down from 35.9 Fri but still above 25. Nomura calls the rally mechanical (short covering). Dec hike odds about 96% (CME via Fox Business); PCE Wed 17:30 Dubai is the next test."
  },
- "brief": "The rally holds at 14:15 ET: S&P 500 +4.9%, Nvidia +31% (about $164.50), but VIX is still about 27, above 25. Hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket today.",
+ "brief": "The rally holds into the last hour (15:12 ET): S&P 500 +4.9%, Nvidia +31% (about $164.70), VIX about 27.3, still above 25. Hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket today.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,251",
+   "value": "7,246",
    "change": 4.9
   },
   {
@@ -20,30 +20,30 @@
   },
   {
    "name": "VIX (fear)",
-   "value": "27.0",
-   "change": -24.8,
+   "value": "27.3",
+   "change": -24.0,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,657",
-   "change": 3.4
+   "value": "$3,641",
+   "change": 3.6
   },
   {
    "name": "Brent",
-   "value": "$89.7",
-   "change": -3.1
+   "value": "$86.5",
+   "change": -3.9
   },
   {
    "name": "US 10y",
-   "value": "4.94%",
+   "value": "4.92%",
    "change": null,
    "invert": true
   }
  ],
  "todo": {
   "date": "2026-11-23",
-  "focus": "Big relief rally, VIX still about 27. Hold Nvidia, no lab trade, keep the $78.50 SPYM limit.",
+  "focus": "Big relief rally, VIX still about 27.3 at 15:00 ET. Hold Nvidia, no lab trade, keep the $78.50 SPYM limit.",
   "items": [
    {
     "id": "m1",
@@ -123,7 +123,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Infineon · Xetra",
-   "trigger": "WAIT. No order. Mon close EUR 48.42, just below EUR 48.50. Reconsider only after 3 closes in a row above EUR 48.50 and no new US chip export rule hits Europe.",
+   "trigger": "WAIT. No order. Fri close EUR 45.44, below EUR 46, so the Nov 27 review is off. Reconsider only after 3 closes in a row above EUR 48.50 and no new US chip export rule hits Europe.",
    "story": "Guides next year +22% on data-center power chips, but the cash flow guide is below hopes. The drop is chip-sector mood."
   },
   {
