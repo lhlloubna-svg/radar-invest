@@ -1,66 +1,66 @@
 {
- "updatedAt": "2026-11-24T14:51:59Z",
- "updatedLabel": "Tue 24 Nov, 18:30 Dubai",
+ "updatedAt": "2026-11-24T17:51:20Z",
+ "updatedLabel": "Tue 24 Nov, 21:20 Dubai",
  "regime": {
-  "score": 36,
+  "score": 35,
   "label": "Stress returns after relief rally",
-  "summary": "Mon close: S&P 500 7,237.17 (+4.73%), VIX 26.62. Tue pre-market: S&P futures -1.3%, Nasdaq futures -2.2%, VIX 30.13. Chips and AI servers fall (Nvidia -5%, HPE -9.6%, ADI down 7-11%). PCE and GDP Wed 17:30 Dubai; US closed Thu. Dec hike about 96% priced."
+  "summary": "About 12:00 ET: S&P 500 -1.0%, Nasdaq about -2.2 to -2.6%, Dow +0.5%, VIX about 28. WSJ and Bloomberg report new US tariffs on China, the EU and others may come this week. 5-year auction 13:00 ET (22:00 Dubai). Dell, HP, Workday, Autodesk tonight; PCE Wed 17:30 Dubai; US closed Thu."
  },
- "brief": "US futures give back part of Monday's rally and the VIX is back near 30, so there is no lab trade, no rocket and no new order today. Hold Nvidia through its 5% pre-market dip and keep the $78.50 SPYM limit as it is.",
+ "brief": "Chips keep falling (Nvidia -8%, ADI -16 to -19%) and a report of sweeping new US tariffs weighs on markets, with the VIX near 28. No lab trade, no rocket, no new order today: hold Nvidia and keep the $78.50 SPYM limit.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,237",
-   "change": 4.7
+   "value": "7,165",
+   "change": -1.0
   },
   {
    "name": "Stoxx 600",
-   "value": "636",
-   "change": -0.2
+   "value": "637",
+   "change": 0.0
   },
   {
    "name": "VIX (fear)",
-   "value": "30.1",
-   "change": 13.1,
+   "value": "28.1",
+   "change": 5.4,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,628",
-   "change": -0.6
+   "value": "$3,565",
+   "change": -1.9
   },
   {
    "name": "Brent",
-   "value": "$88.0",
-   "change": -1.0
+   "value": "$89.7",
+   "change": 0.3
   },
   {
    "name": "US 10y",
-   "value": "4.92%",
+   "value": "4.89%",
    "change": null,
    "invert": true
   }
  ],
  "todo": {
   "date": "2026-11-24",
-  "focus": "VIX back near 30. No lab trade, no rocket, no new order. Hold Nvidia.",
+  "focus": "VIX about 28. No lab trade, no rocket, no new order. Hold Nvidia.",
   "items": [
    {
     "id": "t1",
     "time": "18:15",
-    "text": "Open the Radar. No lab trade or rocket today: VIX about 30, above our 25 limit",
+    "text": "Open the Radar. No lab trade or rocket today: VIX about 28, above our 25 limit",
     "done": false
    },
    {
     "id": "t2",
     "time": "18:30",
-    "text": "Nvidia about -5% pre-market ($156.76): HOLD. No add, no sell",
+    "text": "Nvidia about -8% today ($151.21 at midday): HOLD. No add, no sell",
     "done": false
    },
    {
     "id": "t3",
     "time": "",
-    "text": "Richemont: no CFR order before Fri close. Hermes is only EUR 4 above its EUR 1,225.50 line",
+    "text": "Richemont: no CFR order before Fri close. Hermes must stay above EUR 1,225.50 (now about 1,247)",
     "done": false
    }
   ]
@@ -95,7 +95,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Eaton",
-   "trigger": "WAIT. No order. Mon closed $336.34, back above $330. Reconsider only if Tue also closes above $330 (2 in a row), then red team first.",
+   "trigger": "WAIT. No order. It trades $316.89 (-5.8%), near its Nov 20 low of $310.61. Reconsider only after 2 closes in a row above $330, then red team first.",
    "story": "Sales +28% (organic +19%), full-year guide raised. 29% below its high at about 22x next year's profit."
   },
   {
@@ -111,7 +111,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Infineon · Xetra",
-   "trigger": "WAIT. No order. Mon close EUR 48.42, just under EUR 48.50. Reconsider only after 3 closes in a row above EUR 48.50 and no new US chip export rule hits Europe.",
+   "trigger": "WAIT. No order. Fell 6-10% today with European chips, far under EUR 48.50. Reconsider only after 3 closes in a row above EUR 48.50 and no US chip export rule hits Europe.",
    "story": "Guides next year +22% on data-center power chips, but the cash flow guide is below hopes. The drop is chip-sector mood."
   },
   {
@@ -143,8 +143,8 @@
    "call": "wait",
    "why": "mixed",
    "name": "Analog Devices",
-   "trigger": "WAIT. No buy before Fri Nov 27 (half day). Reconsider only if ADI closes above $337 on both Wed and Fri and no broker cuts on demand; red team first.",
-   "story": "Record quarter, but EPS is guided down about 6% on flat sales at about 30x earnings. Down 7-11% pre-market: mixed, not mood."
+   "trigger": "WAIT. No buy before Fri Nov 27 (half day). Reconsider only if ADI closes above $337 on both Wed and Fri, VIX is below 25 and no broker cuts; red team first.",
+   "story": "Record quarter, but EPS is guided down about 6% on flat sales at about 30x earnings. Down about 17-19% today: mixed, not mood."
   },
   {
    "ticker": "CRM",
@@ -175,24 +175,24 @@
    "call": "watch",
    "why": "mixed",
    "name": "CrowdStrike buys Zscaler",
-   "trigger": "WATCH. No buy. Reconsider only after the deal filing (S-4) shows Zscaler's numbers and CRWD then closes above $210 for 5 sessions.",
+   "trigger": "WATCH. No buy. Mon closed $208.97, under $210. Reconsider only after the deal filing (S-4) shows Zscaler's numbers and CRWD then closes above $210 for 5 sessions.",
    "story": "Fell about 9-10% on an all-stock deal for a slower grower. The quarter is fine but the Q4 guide slows; JPMorgan sees dilution."
   },
   {
-   "ticker": "UNH",
-   "call": "watch",
-   "why": "business",
-   "name": "Health insurers: UNH, Humana, CVS",
-   "trigger": "WATCH. No buy. Reconsider UNH only after its 2027 outlook (promised before year end), and only if it closes above $360 after it.",
-   "story": "Two proposed Medicare rules hit insurers' main profit pool from 2028. Profits are fine today, but UNH revenue fell 0.4%."
-  },
-  {
-   "ticker": "BAER",
+   "ticker": "AIXA",
    "call": "watch",
    "why": "mixed",
-   "name": "Julius Baer",
-   "trigger": "WATCH. No buy. Reconsider after full-year results (early Feb 2027) only if net new money growth is back above 3%.",
-   "story": "Record 10-month profit (+17%), but new client money is slowing as the bank drops riskier clients. Mixed, not mood."
+   "name": "Aixtron · Xetra",
+   "trigger": "WATCH. No buy. Reconsider only after FY26 results (late Feb 2027) if the 2027 order guide shows laser demand still growing; red team first.",
+   "story": "Fell about 12% after UBS cut it to Sell. 68% of Q3 equipment orders come from AI laser optics: is 2027 the peak?"
+  },
+  {
+   "ticker": "DEMANT",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Demant (Oticon)",
+   "trigger": "WATCH. No buy. Reconsider only after FY26 results (early Feb 2027) if 2027 organic growth is guided at 5% or more; red team first.",
+   "story": "Business is fine (Q3 revenue +21%, +11% organic), but the long-term growth target was cut: mixed, not mood."
   }
  ],
  "agenda": [
