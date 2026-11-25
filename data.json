@@ -1,27 +1,27 @@
 {
- "updatedAt": "2026-11-24T21:50:55Z",
- "updatedLabel": "Wed 25 Nov, 01:45 Dubai",
+ "updatedAt": "2026-11-25T21:51:35Z",
+ "updatedLabel": "Thu 26 Nov, 01:30 Dubai",
  "regime": {
-  "score": 35,
+  "score": 33,
   "label": "Stressed, still above our VIX limit",
-  "summary": "Tue close: S&P 500 about 7,200 (-0.5%), Nasdaq -1.5%, Dow +0.8%, VIX 26.36. Tariff report (WSJ, Reuters sources) not confirmed officially. Dell beat after the close. PCE, GDP, claims Wed 17:30 Dubai; US closed Thu; half day Fri (closes 22:00 Dubai)."
+  "summary": "Wed close: S&P 500 7,195 (-0.1%) after -2.8% intraday, Nasdaq -0.5%, Dow +0.7%; VIX about 27.8 at 15:08 ET. Core PCE 3.3% vs 3.2% expected; a Dec 9 Fed hike is about 97-98% priced. USTR proposed Section 301 tariffs on 14 economies (EU 15%, Switzerland up to 15%). US closed Thu; half day Fri (closes 22:00 Dubai)."
  },
- "brief": "Chips gave back part of Monday's jump (Nvidia -5.9%, Micron -11%) while the S&P 500 slipped 0.5% and VIX closed 26.4, still above our 25 limit. No lab trade, no rocket, no new order: hold Nvidia, keep the $78.50 SPYM limit, and let Wednesday's PCE data (17:30 Dubai) pass.",
+ "brief": "Wild day: the S&P 500 fell almost 3% on hot inflation, AI fears and a new US tariff plan, then closed flat; VIX still near 28. The US proposed a tariff of up to 15% on Swiss goods, so the Richemont Friday plan is off: no new orders, hold Nvidia.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,198",
-   "change": -0.54
+   "value": "7,195",
+   "change": -0.08
   },
   {
    "name": "Stoxx 600",
-   "value": "633",
-   "change": -0.66
+   "value": "626",
+   "change": -1.06
   },
   {
    "name": "VIX (fear)",
-   "value": "26.4",
-   "change": -0.98,
+   "value": "27.8",
+   "change": 5.6,
    "invert": true
   },
   {
@@ -36,50 +36,42 @@
   },
   {
    "name": "US 10y",
-   "value": "4.90%",
+   "value": "4.83%",
    "change": null,
    "invert": true
   }
  ],
  "todo": {
-  "date": "2026-11-24",
-  "focus": "VIX about 27. No lab trade, no rocket, no new order. Hold Nvidia.",
+  "date": "2026-11-26",
+  "focus": "US closed today (Thanksgiving). No new order. Richemont Friday plan is off.",
   "items": [
    {
-    "id": "t1",
-    "time": "18:15",
-    "text": "Open the Radar. No lab trade or rocket today: VIX about 27, above our 25 limit",
-    "done": false
-   },
-   {
-    "id": "t2",
-    "time": "18:30",
-    "text": "Nvidia closed $155.38 (-5.9%): HOLD. No add, no sell",
-    "done": false
-   },
-   {
-    "id": "t3",
+    "id": "h1",
     "time": "",
-    "text": "Richemont: no CFR order before Fri close. Hermes must stay above EUR 1,225.50 (closed 1,251)",
+    "text": "Richemont is WAIT: Friday plan cancelled (US proposed a 15% Swiss tariff). Place no CFR order",
+    "done": false
+   },
+   {
+    "id": "h2",
+    "time": "",
+    "text": "Nvidia fell about 5% Wed to about $148: HOLD. Huang meets Congress Dec 1, testifies Dec 3",
+    "done": false
+   },
+   {
+    "id": "h3",
+    "time": "19:00",
+    "text": "Fri half day (closes 22:00 Dubai): no lab trade while VIX is above 25 (about 28 now)",
     "done": false
    }
   ]
  },
  "cards": [
   {
-   "ticker": "NVDA",
-   "call": "hold",
-   "why": "event",
-   "name": "EVENT: Nvidia brings back Huang as CEO",
-   "trigger": "HOLD. Do not chase. Review only if the SEC files charges, Nvidia restates or cuts its growth guide. No lab trade while VIX is above 25.",
-   "story": "A relief rally inside a correction: Nvidia is still about 20% below a month ago and the probe is open. A Dec 9 Fed hike is still priced."
-  },
-  {
    "ticker": "SPYM",
    "call": "wait",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "WAIT. Keep the limit BUY 6 SPYM at $78.50, good till Wed Dec 9. Do not raise it: VIX is back near 30. If not filled after the Fed, a new limit on Dec 10.",
+   "trigger": "WAIT. Keep the limit BUY 6 SPYM at $78.50, good till Wed Dec 9. Do not raise it: VIX is near 28. If not filled after the Fed, a new limit on Dec 10.",
    "story": "The 500 biggest US companies for 0.02% a year. 3.5% below its high after a -3% month."
   },
   {
@@ -87,7 +79,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Richemont (Cartier) · Zurich",
-   "trigger": "WAIT. No order today. After the Fri Nov 27 close: BUY 2 at CHF 168 or that close, whichever is lower, only if Hermes holds above EUR 1,225.50 and CFR closed above CHF 160.",
+   "trigger": "WAIT. Friday plan is off: the US proposed a tariff of up to 15% on Swiss goods. No order. Reconsider after the US decision (hearings from Jan 25), red team first.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -111,8 +103,16 @@
    "call": "wait",
    "why": "mixed",
    "name": "Infineon · Xetra",
-   "trigger": "WAIT. No order. Fell 6-10% today with European chips, far under EUR 48.50. Reconsider only after 3 closes in a row above EUR 48.50 and no US chip export rule hits Europe.",
+   "trigger": "WAIT. No order. Fell 6-10% with European chips, far under EUR 48.50. Reconsider only after 3 closes in a row above EUR 48.50 and no US chip export rule hits Europe.",
    "story": "Guides next year +22% on data-center power chips, but the cash flow guide is below hopes. The drop is chip-sector mood."
+  },
+  {
+   "ticker": "ISRG",
+   "call": "wait",
+   "why": "long",
+   "name": "Intuitive Surgical (da Vinci)",
+   "trigger": "WAIT. When VIX closes below 25: red team first, then BUY 1 with a limit at $415 or the last close, whichever is lower. Not now: up about 9% in 3 sessions.",
+   "story": "Healthcare leader outside AI chips: revenue +22%, procedures about +15%. Trades 28% below its 52-week high of $603.88."
   },
   {
    "ticker": "MSFT",
@@ -139,14 +139,6 @@
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
-   "ticker": "ADI",
-   "call": "wait",
-   "why": "mixed",
-   "name": "Analog Devices",
-   "trigger": "WAIT. No buy before Fri Nov 27 (half day). Reconsider only if ADI closes above $337 on both Wed and Fri, VIX is below 25 and no broker cuts; red team first.",
-   "story": "Record quarter, but EPS is guided down about 6% on flat sales at about 30x earnings. Mixed, not mood."
-  },
-  {
    "ticker": "CSCO",
    "call": "watch",
    "why": "mixed",
@@ -159,24 +151,16 @@
    "call": "watch",
    "why": "mixed",
    "name": "CrowdStrike buys Zscaler",
-   "trigger": "WATCH. No buy. Mon closed $208.97, under $210. Reconsider only after the deal filing (S-4) shows Zscaler's numbers and CRWD then closes above $210 for 5 sessions.",
+   "trigger": "WATCH. No buy. Reconsider only after the deal filing (S-4) shows Zscaler's numbers and CRWD then closes above $210 for 5 sessions.",
    "story": "Fell about 9-10% on an all-stock deal for a slower grower. The quarter is fine but the Q4 guide slows; JPMorgan sees dilution."
   },
   {
-   "ticker": "AIXA",
+   "ticker": "ADI",
    "call": "watch",
    "why": "mixed",
-   "name": "Aixtron · Xetra",
-   "trigger": "WATCH. No buy. Reconsider only after FY26 results (late Feb 2027) if the 2027 order guide shows laser demand still growing; red team first.",
-   "story": "Fell about 12% after UBS cut it to Sell. 68% of Q3 equipment orders come from AI laser optics: is 2027 the peak?"
-  },
-  {
-   "ticker": "DEMANT",
-   "call": "watch",
-   "why": "mixed",
-   "name": "Demant (Oticon)",
-   "trigger": "WATCH. No buy. Reconsider only after FY26 results (early Feb 2027) if 2027 organic growth is guided at 5% or more; red team first.",
-   "story": "Business is fine (Q3 revenue +21%, +11% organic), but the long-term growth target was cut: mixed, not mood."
+   "name": "Analog Devices",
+   "trigger": "WATCH. The close above $337 test failed (Tue close $312.95). Reconsider after its next report (about Feb 2027) only if the Q2 guide grows; red team first.",
+   "story": "Record quarter, but EPS is guided down about 6% on flat sales at about 30x earnings. Mixed, not mood."
   },
   {
    "ticker": "MU",
@@ -187,22 +171,34 @@
    "story": "Fell about 11% on a BNP Paribas downgrade. Growth is almost all memory price and the margin guide already slips: mixed, not mood."
   },
   {
-   "ticker": "ENR",
+   "ticker": "ASM",
    "call": "watch",
    "why": "mixed",
-   "name": "Siemens Energy · Xetra",
-   "trigger": "WATCH. No buy. Reconsider after Q1 results (about Feb 2027) only if gas orders still grow and the FY27 net income guide of about EUR 5bn is kept; red team first.",
-   "story": "Record backlog and revenue +15.5%, but gas and grid orders look near a cycle high and wind orders fell 31%. Mixed, not mood."
+   "name": "ASM International · Amsterdam",
+   "trigger": "WATCH. No buy. Reconsider after full-year results (about late Feb 2027) only if the 2027 sales target above EUR 5.7B is kept and the US MATCH Act has not passed.",
+   "story": "Record Q3 revenue (+44%), but no quarterly order data, an easy 2025 base and US China-sales risk. Mixed, not mood."
+  },
+  {
+   "ticker": "ASML",
+   "call": "watch",
+   "why": "mixed",
+   "name": "ASML",
+   "trigger": "WATCH. No buy. Reconsider after Q4 results and the 2027 outlook (about Jan 27) only if the MATCH Act has not passed and 2027 sales are guided above 2026.",
+   "story": "Fell 5.6% with the AI chip selloff. A US bill could ban DUV tool sales and service in China: a rule risk, so mixed."
+  },
+  {
+   "ticker": "SAP",
+   "call": "watch",
+   "why": "mixed",
+   "name": "SAP",
+   "trigger": "WATCH. No buy. Reconsider after Q4 results (late Jan 2027) only if current cloud backlog growth stays at 25% or more; red team first.",
+   "story": "Down about 11% in a week. Cloud is fine, but support, licenses and services shrink and backlog growth is guided to slow. Mixed."
   }
  ],
  "agenda": [
   {
-   "date": "Wed 25",
-   "event": "US PCE inflation, Q3 GDP, jobless claims 17:30 Dubai; Beige Book 23:00; Deere"
-  },
-  {
    "date": "Thu 26",
-   "event": "US markets closed (Thanksgiving)"
+   "event": "US markets closed (Thanksgiving); Rheinmetall capital markets day (Nov 26-27)"
   },
   {
    "date": "Fri 27",
@@ -210,15 +206,23 @@
   },
   {
    "date": "Tue 1",
-   "event": "CrowdStrike, Marvell, Credo, MongoDB (after close)"
+   "event": "CrowdStrike, Marvell, Credo (after close); Huang meets House committees"
   },
   {
    "date": "Wed 2",
    "event": "Salesforce, Snowflake (after close)"
   },
   {
+   "date": "Thu 3",
+   "event": "Huang testifies to the Senate Banking Committee"
+  },
+  {
    "date": "8-9 Dec",
    "event": "Fed rate decision (statement 23:00 Dubai Dec 9)"
+  },
+  {
+   "date": "5 Jan",
+   "event": "Comment deadline on the US Section 301 tariff plan"
   }
  ]
 }
