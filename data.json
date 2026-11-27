@@ -1,42 +1,42 @@
 {
- "updatedAt": "2026-11-27T05:51:35Z",
- "updatedLabel": "Fri 27 Nov, 08:30 Dubai",
+ "updatedAt": "2026-11-27T14:51:15Z",
+ "updatedLabel": "Fri 27 Nov, 19:20 Dubai",
  "regime": {
-  "score": 33,
-  "label": "Stressed, still above our VIX limit",
-  "summary": "Thu: Europe closed up about 1.8% (Stoxx 600 about 637) on relief that US tariffs will be capped at deal rates (EU 15%). US closed Thu, half day Fri; S&P futures about +0.3%. Brent about $96, gold about $3,570. VIX last seen 28.3 (Wed), above our 25 limit."
+  "score": 40,
+  "label": "Rebounding, still nervous",
+  "summary": "Fri 8:10 ET: S&P futures +1.7%, Nasdaq +2.4% in very thin holiday trading. VIX about 25.4 (Wed close 26.8), still above our 25 limit. 10-year 4.92%, Fed hike Dec 9 about 97% priced. US closes 22:00 Dubai."
  },
- "brief": "US is closed today and Friday is a half day closing 22:00 Dubai; VIX closed 28.3 Wed, so no lab trade and no rocket. Nothing to buy: hold Nvidia, keep the $78.50 SPYM limit, all other ideas stay WAIT or WATCH.",
+ "brief": "US futures jump about 1.7% on a thin half day led by chips, but VIX is still about 25.4 and no clean mood drop passed our checks. Nothing to buy: hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket today.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,183",
-   "change": -0.25
+   "value": "7,320",
+   "change": 1.7
   },
   {
    "name": "Stoxx 600",
-   "value": "637",
-   "change": 1.8
+   "value": "643",
+   "change": 1.0
   },
   {
    "name": "VIX (fear)",
-   "value": "28.3",
-   "change": 5.6,
+   "value": "25.4",
+   "change": -5.2,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,570",
-   "change": -0.52
+   "value": "$3,670",
+   "change": 3.0
   },
   {
    "name": "Brent",
-   "value": "$96.0",
-   "change": 1.44
+   "value": "$96.8",
+   "change": 0.2
   },
   {
    "name": "US 10y",
-   "value": "4.86%",
+   "value": "4.92%",
    "change": null,
    "invert": true
   }
@@ -54,12 +54,20 @@
    {
     "id": "f2",
     "time": "19:00",
-    "text": "Half day: no lab trade, no rocket while VIX is above 25 (28.3 Wed close)",
+    "text": "No lab trade, no rocket today: VIX about 25.4, chip gap-ups not confirmed. Hold Nvidia, no chase",
     "done": false
    }
   ]
  },
  "cards": [
+  {
+   "ticker": "NVDA",
+   "call": "hold",
+   "why": "mixed",
+   "name": "Chip rebound (Nvidia)",
+   "trigger": "HOLD Nvidia. No chase and no lab trade: VIX about 25.4 (not below 25) and movers' prices were not confirmed.",
+   "story": "A relief bounce after a brutal November, not company news. Holiday half-day gaps often fade, and a Fed hike on Dec 9 is about 97% priced."
+  },
   {
    "ticker": "SPYM",
    "call": "wait",
@@ -73,7 +81,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Richemont (Cartier) · Zurich",
-   "trigger": "WAIT. No order. BUY only if the final US text keeps Swiss duty at or below 15%, Hermes makes no new low under EUR 1,213 and CFR closes at or below CHF 170.",
+   "trigger": "WAIT. No order. BUY only if the final US text keeps Swiss duty at or below 15%, Hermes makes no new low under its Nov 20 low from Nov 30, and CFR closes at or below CHF 170.",
    "story": "Net profit +39% while luxury peers grow 1-2%. Q2 slowed to +13%; analyst average target about CHF 210."
   },
   {
@@ -133,14 +141,6 @@
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
-   "ticker": "ASML",
-   "call": "watch",
-   "why": "mixed",
-   "name": "ASML",
-   "trigger": "WATCH. No buy. Reconsider after Q4 results and the 2027 outlook (about Jan 27) only if the MATCH Act has not passed and 2027 sales are guided above 2026.",
-   "story": "Fell with the AI chip selloff. A US bill could ban DUV tool sales and service in China: a rule risk, so mixed."
-  },
-  {
    "ticker": "SAP",
    "call": "watch",
    "why": "mixed",
@@ -165,28 +165,28 @@
    "story": "About 51% below its high after the European chip selloff. Q3 sales +17.9%, but growth leans on distributor restocking."
   },
   {
-   "ticker": "CCC",
+   "ticker": "MRVL",
    "call": "watch",
    "why": "mixed",
-   "name": "Computacenter · London",
-   "trigger": "WATCH. No order. Reconsider at full-year results (March 2027) only if gross margin stops falling and Managed Services grows again; red team first.",
-   "story": "Fell 8.2% after its investor day. Profit guide was raised, but gross profit lags revenue and Managed Services shrank 4.5%."
+   "name": "Marvell",
+   "trigger": "WATCH. No buy before results (Tue Dec 1, after close). Recheck Wed Dec 2 after 19:00 Dubai: rocket only if it holds above $145.",
+   "story": "About 60% below its high. Holding through a binary report could gap far below a stop: it moved -14% on Nov 20 and +18% on Nov 23."
   },
   {
-   "ticker": "EQNR",
+   "ticker": "VRTX",
    "call": "watch",
    "why": "mixed",
-   "name": "Equinor · Oslo",
-   "trigger": "WATCH. No buy. Reconsider after Q4 results (Feb 3, 2027) only if Bacalhau and Visund are back online and 2027 output growth is guided at 3% or more.",
-   "story": "Q3 profit doubled, but field outages cut 2026 output growth to about 3% and oil is about 12% lower in a month. Mixed."
+   "name": "Vertex Pharmaceuticals",
+   "trigger": "WATCH. No buy today. Reconsider from Wed Dec 2 only if VRTX holds above $515 for 2 closes; red team first.",
+   "story": "FDA delayed its kidney drug decision to Feb 28: a delay, not a rejection. Sales grow 12%, but EPS fell 1% and Trikafta sales fell 8%."
   },
   {
    "ticker": "RHM",
    "call": "avoid",
    "why": "business",
-   "name": "EVENT: Rheinmetall investor day",
-   "trigger": "AVOID. No buy before or during the capital markets day (Nov 26-27). Reconsider only if 2030 targets are kept and it makes 2 weekly closes above EUR 810.",
-   "story": "A business drop after two guidance cuts. Brokers expect the 2030 sales target to be cut; the event can move the stock hard either way."
+   "name": "Rheinmetall",
+   "trigger": "AVOID. No buy on the relief rally (+14% in a week). Reconsider only at full-year results if the 2026 guide (about EUR 13.2bn sales, 18.5% margin) is met; red team first.",
+   "story": "Cut its 2030 targets at the capital markets day, the third cut in a month. Delayed state programmes still weigh."
   }
  ],
  "agenda": [
