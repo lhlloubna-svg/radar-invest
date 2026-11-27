@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-26T18:25:00Z",
- "updatedLabel": "Thu 26 Nov, 22:20 Dubai",
+ "updatedAt": "2026-11-27T05:51:35Z",
+ "updatedLabel": "Fri 27 Nov, 08:30 Dubai",
  "regime": {
   "score": 33,
   "label": "Stressed, still above our VIX limit",
@@ -42,25 +42,19 @@
   }
  ],
  "todo": {
-  "date": "2026-11-26",
-  "focus": "US closed today (Thanksgiving). No new order. Richemont Friday plan is off.",
+  "date": "2026-11-27",
+  "focus": "US half day (closes 22:00 Dubai). No new order. Hold Nvidia, keep the $78.50 SPYM limit.",
   "items": [
    {
-    "id": "h1",
-    "time": "",
-    "text": "Richemont is WAIT: Friday plan cancelled (US proposed a 15% Swiss tariff). Place no CFR order",
+    "id": "f1",
+    "time": "18:15",
+    "text": "Open the Radar at 18:15 for the 9:00 ET update before the US open (18:30 Dubai)",
     "done": false
    },
    {
-    "id": "h2",
-    "time": "",
-    "text": "Nvidia closed $149.30 Wed (-3.9%): HOLD. Huang meets House Dec 1; Senate date not confirmed",
-    "done": false
-   },
-   {
-    "id": "h3",
+    "id": "f2",
     "time": "19:00",
-    "text": "Fri half day (closes 22:00 Dubai): no lab trade, no rocket while VIX is above 25 (28.3 Wed)",
+    "text": "Half day: no lab trade, no rocket while VIX is above 25 (28.3 Wed close)",
     "done": false
    }
   ]
