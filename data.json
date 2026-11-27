@@ -1,37 +1,42 @@
 {
- "updatedAt": "2026-11-27T15:51:21Z",
- "updatedLabel": "Fri 27 Nov, 19:55 Dubai",
+ "updatedAt": "2026-11-27T17:51:50Z",
+ "updatedLabel": "Fri 27 Nov, 21:55 Dubai",
  "regime": {
-  "score": 42,
-  "label": "Rebounding, still nervous",
-  "summary": "Fri about 9:30 ET: S&P 500 7,265 (+1.15%), Nasdaq about +1.6%, VIX about 25.6 (still above our 25 limit). 10-year about 4.91%, Fed hike Dec 9 about 99% priced. US closes 22:00 Dubai."
+  "score": 45,
+  "label": "Rebounding, nerves easing",
+  "summary": "Fri 12:02 ET: S&P 500 7,285 (+1.4%), VIX about 24.7 intraday (Wed close 26.80), 10-year 4.93%, Fed hike Dec 9 nearly fully priced. US closes 22:00 Dubai."
  },
- "brief": "Wall Street opened about 1.1% higher on a chip rebound, but VIX is still about 25.6 and no clean mood drop passed our checks. Nothing to buy: hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket today.",
+ "brief": "Wall Street is up about 1.4% on a chip rebound and VIX dipped to about 24.7, but that is not a close. Nothing to buy today: hold Nvidia despite two new headlines, keep the $78.50 SPYM limit, no lab trade or rocket.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,265",
-   "change": 1.15
+   "value": "7,285",
+   "change": 1.43
   },
   {
    "name": "Stoxx 600",
-   "value": "643",
-   "change": 0.9
+   "value": "644",
+   "change": 1.07
   },
   {
    "name": "VIX (fear)",
-   "value": "25.6",
-   "change": -4.6,
+   "value": "24.7",
+   "change": -7.95,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,650",
-   "change": 2.5
+   "value": "$3,630",
+   "change": 2.7
+  },
+  {
+   "name": "Brent oil",
+   "value": "$96.6",
+   "change": null
   },
   {
    "name": "US 10y",
-   "value": "4.91%",
+   "value": "4.93%",
    "change": null,
    "invert": true
   }
@@ -43,7 +48,7 @@
    {
     "id": "f2",
     "time": "19:00",
-    "text": "No lab trade, no rocket today: VIX about 25.6, no confirmed setup. Hold Nvidia, no chase",
+    "text": "No lab trade, no rocket today: US closes 22:00 Dubai, no confirmed setup. Hold Nvidia, no chase",
     "done": false
    }
   ]
@@ -102,7 +107,7 @@
    "call": "wait",
    "why": "long",
    "name": "Intuitive Surgical (da Vinci)",
-   "trigger": "WAIT. When VIX closes below 25: red team first, then BUY 1 with a limit at $415 or the last close, whichever is lower.",
+   "trigger": "WAIT. When VIX closes below 25 (about 24.7 intraday Fri, not a close): red team first, then BUY 1 with a limit at $415 or the last close, whichever is lower.",
    "story": "Healthcare leader outside AI chips: revenue +22%, procedures about +15%. Trades about 28% below its 52-week high of $603.88."
   },
   {
