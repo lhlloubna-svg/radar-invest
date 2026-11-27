@@ -1,37 +1,37 @@
 {
- "updatedAt": "2026-11-27T18:51:40Z",
- "updatedLabel": "Fri 27 Nov, 22:12 Dubai",
+ "updatedAt": "2026-11-27T20:51:49Z",
+ "updatedLabel": "Sat 28 Nov, 00:15 Dubai",
  "regime": {
-  "score": 45,
+  "score": 50,
   "label": "Rebounding, nerves easing",
-  "summary": "Fri 12:02 ET: S&P 500 7,285 (+1.4%), VIX about 24.7 intraday (Wed close 26.80), 10-year 4.93%, Fed hike Dec 9 nearly fully priced. US closes 22:00 Dubai."
+  "summary": "Fri close: S&P 500 7,297 (+1.6%, +5.6% week), Nasdaq +2.3%, Stoxx 600 643.85 (+1.0%), VIX about 23.8 late (unofficial), 10-year 4.93%. Fed hike Dec 9 nearly fully priced."
  },
- "brief": "US half day is over (closed 22:00 Dubai). Official closes are not out yet, so the numbers are the last intraday readings (S&P about +1.4%, VIX about 24.7). Nothing to buy: hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket. Weekly review at the 16:00 ET run.",
+ "brief": "US stocks closed the half day +1.6% (S&P 7,297), the best week in more than a year; VIX ended near 23.8 (unofficial). Nothing to buy now: hold Nvidia ($150.49 close), keep the $78.50 SPYM limit; Intuitive Surgical moves from WAIT to WATCH after our red team review.",
  "pulse": [
   {
    "name": "S&P 500",
-   "value": "7,285",
-   "change": 1.43
+   "value": "7,297",
+   "change": 1.6
   },
   {
    "name": "Stoxx 600",
    "value": "644",
-   "change": 1.07
+   "change": 1.0
   },
   {
    "name": "VIX (fear)",
-   "value": "24.7",
-   "change": -7.95,
+   "value": "23.8",
+   "change": -11.2,
    "invert": true
   },
   {
    "name": "Gold",
-   "value": "$3,630",
-   "change": 2.7
+   "value": "$3,650",
+   "change": 2.4
   },
   {
    "name": "Brent oil",
-   "value": "$96.6",
+   "value": "$96.3",
    "change": null
   },
   {
@@ -42,32 +42,30 @@
   }
  ],
  "todo": {
-  "date": "2026-11-27",
-  "focus": "US half day (closes 22:00 Dubai). No new order. Hold Nvidia, keep the $78.50 SPYM limit.",
+  "date": "2026-11-26",
+  "focus": "US closed today (Thanksgiving). No new order. Richemont Friday plan is off.",
   "items": [
    {
-    "id": "f2",
-    "time": "19:00",
-    "text": "No lab trade, no rocket today: US closes 22:00 Dubai, no confirmed setup. Hold Nvidia, no chase",
+    "id": "h1",
+    "time": null,
+    "text": "Richemont is WAIT: Friday plan cancelled (US proposed a 15% Swiss tariff). Place no CFR order",
+    "done": false
+   },
+   {
+    "id": "h2",
+    "time": null,
+    "text": "Nvidia closed $149.30 Wed (-3.9%): HOLD. Huang meets House Dec 1; Senate date not confirmed",
     "done": false
    }
   ]
  },
  "cards": [
   {
-   "ticker": "NVDA",
-   "call": "hold",
-   "why": "mixed",
-   "name": "Chip rebound (Nvidia)",
-   "trigger": "HOLD Nvidia. No chase and no lab trade: VIX about 25.4 (not below 25) and movers' prices were not confirmed.",
-   "story": "A relief bounce after a brutal November, not company news. Holiday half-day gaps often fade, and a Fed hike on Dec 9 is about 97% priced."
-  },
-  {
    "ticker": "SPYM",
    "call": "wait",
    "why": "core",
    "name": "S&P 500 ETF (SPYM)",
-   "trigger": "WAIT. Keep the limit BUY 6 SPYM at $78.50, good till Wed Dec 9. Do not raise it: VIX is near 30. If not filled after the Fed, a new limit on Dec 10.",
+   "trigger": "WAIT. Keep the limit BUY 6 SPYM at $78.50, good till Wed Dec 9. Do not raise it. If not filled after the Fed, a new limit on Dec 10.",
    "story": "The 500 biggest US companies for 0.02% a year. About 3.5% below its high after a -3% month."
   },
   {
@@ -99,16 +97,8 @@
    "call": "wait",
    "why": "mixed",
    "name": "Infineon · Xetra",
-   "trigger": "WAIT. No order. Thursday's +4% is a market-wide tariff-relief bounce. Reconsider only after 3 closes in a row above EUR 48.50 and no new US chip export rule.",
+   "trigger": "WAIT. No order. The rebound is market-wide tariff relief, not company news. Reconsider only after 3 closes in a row above EUR 48.50 and no new US chip export rule.",
    "story": "Guides next year +22% on data-center power chips, but the cash flow guide is about 20% below hopes. The drop is chip-sector mood."
-  },
-  {
-   "ticker": "ISRG",
-   "call": "wait",
-   "why": "long",
-   "name": "Intuitive Surgical (da Vinci)",
-   "trigger": "WAIT. When VIX closes below 25 (about 24.7 intraday Fri, not a close): red team first, then BUY 1 with a limit at $415 or the last close, whichever is lower.",
-   "story": "Healthcare leader outside AI chips: revenue +22%, procedures about +15%. Trades about 28% below its 52-week high of $603.88."
   },
   {
    "ticker": "MSFT",
@@ -123,7 +113,7 @@
    "call": "wait",
    "why": "mixed",
    "name": "Schneider Electric · Paris",
-   "trigger": "WAIT. No order (new 52-week low Wed). Cancel any old EUR 235 limit. After full-year results (late Feb 2027): BUY 2 at EUR 224 if a cash-flow guide is given.",
+   "trigger": "WAIT. No order. Cancel any old EUR 235 limit. After full-year results (late Feb 2027): BUY 2 at EUR 224 if a cash-flow guide is given.",
    "story": "Organic growth +16.9%, record backlog, guidance raised. Fell on the PTC deal financing, not slower demand."
   },
   {
@@ -133,6 +123,14 @@
    "name": "TSMC",
    "trigger": "WAIT. BUY 1 only after a close above $385, with a limit at that close or $395, whichever is lower. Adds AI-chip exposure.",
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
+  },
+  {
+   "ticker": "ISRG",
+   "call": "watch",
+   "why": "mixed",
+   "name": "Intuitive Surgical (da Vinci)",
+   "trigger": "WATCH. No order, VIX trigger dropped. Reconsider after the Q4 report (late Jan 2027) only if US procedures stop slowing; red team first, $415 is a ceiling.",
+   "story": "Revenue +22%, but US procedures slowed to +10% and price cuts take 3-5% off instrument revenue by end 2027. About 28% below its high."
   },
   {
    "ticker": "TXN",
@@ -148,7 +146,23 @@
    "why": "mixed",
    "name": "STMicroelectronics · Paris",
    "trigger": "WATCH. No order. Reconsider after Q4 results (late Jan 2027) only if the Q1 guide grows, gross margin is at least 39% and distributor stock does not rise.",
-   "story": "About 51% below its high after the European chip selloff. Q3 sales +17.9%, but growth leans on distributor restocking."
+   "story": "About 48% below its high after the European chip selloff. Q3 sales +17.9%, but growth leans on distributor restocking."
+  },
+  {
+   "ticker": "SAP",
+   "call": "watch",
+   "why": "mixed",
+   "name": "SAP",
+   "trigger": "WATCH. No buy. Reconsider after Q4 results (late Jan 2027) only if current cloud backlog growth stays at 25% or more; red team first.",
+   "story": "Cloud is fine, but support, licenses and services shrink and SAP guides backlog growth slightly lower. Down about 10% in a month."
+  },
+  {
+   "ticker": "AVGO",
+   "call": "watch",
+   "why": "mixed",
+   "name": "AI chips: Broadcom, AMD, BESI",
+   "trigger": "WATCH. No buy: each has a company-specific cause and AI-chip exposure is already high. Broadcom: recheck after results Wed Dec 9; red team first.",
+   "story": "Not clean mood drops: Broadcom has a reported Google TPU order cut, AMD export-rule and share-resale news, BESI a flat Q4 guide."
   },
   {
    "ticker": "MRVL",
@@ -163,16 +177,8 @@
    "call": "watch",
    "why": "mixed",
    "name": "Vertex Pharmaceuticals",
-   "trigger": "WATCH. No buy today. Reconsider from Wed Dec 2 only if VRTX closes above $515 twice in a row (about $506 now); red team first.",
+   "trigger": "WATCH. No buy. Reconsider from Wed Dec 2 only if VRTX closes above $515 twice in a row (about $534.57 Fri); red team first.",
    "story": "FDA delayed its kidney drug decision to Feb 28: a delay, not a rejection. Sales grow 12%, but EPS fell 1% and Trikafta sales fell 8%."
-  },
-  {
-   "ticker": "AVGO",
-   "call": "watch",
-   "why": "mixed",
-   "name": "AI chips: Broadcom, AMD, BESI",
-   "trigger": "WATCH. No buy: each has a company-specific cause and AI-chip exposure is already high. Broadcom: recheck after results Wed Dec 9; red team first.",
-   "story": "Not clean mood drops: Broadcom has a reported Google TPU order cut, AMD export-rule and share-resale news, BESI a flat Q4 guide."
   },
   {
    "ticker": "RHM",
