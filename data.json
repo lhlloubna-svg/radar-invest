@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-27T17:51:50Z",
- "updatedLabel": "Fri 27 Nov, 21:55 Dubai",
+ "updatedAt": "2026-11-27T18:51:40Z",
+ "updatedLabel": "Fri 27 Nov, 22:12 Dubai",
  "regime": {
   "score": 45,
   "label": "Rebounding, nerves easing",
   "summary": "Fri 12:02 ET: S&P 500 7,285 (+1.4%), VIX about 24.7 intraday (Wed close 26.80), 10-year 4.93%, Fed hike Dec 9 nearly fully priced. US closes 22:00 Dubai."
  },
- "brief": "Wall Street is up about 1.4% on a chip rebound and VIX dipped to about 24.7, but that is not a close. Nothing to buy today: hold Nvidia despite two new headlines, keep the $78.50 SPYM limit, no lab trade or rocket.",
+ "brief": "US half day is over (closed 22:00 Dubai). Official closes are not out yet, so the numbers are the last intraday readings (S&P about +1.4%, VIX about 24.7). Nothing to buy: hold Nvidia, keep the $78.50 SPYM limit, no lab trade or rocket. Weekly review at the 16:00 ET run.",
  "pulse": [
   {
    "name": "S&P 500",
@@ -135,14 +135,6 @@
    "story": "October sales +59.7%, Jan-Oct +43.3%. The drop is chip-sector mood, not TSMC news."
   },
   {
-   "ticker": "SAP",
-   "call": "watch",
-   "why": "mixed",
-   "name": "SAP",
-   "trigger": "WATCH. No buy. Reconsider after Q4 results (late Jan 2027) only if current cloud backlog growth stays at 25% or more; red team first.",
-   "story": "Down about 11% in a week. Cloud is fine, but support, licenses and services shrink and backlog growth is guided to slow. Mixed."
-  },
-  {
    "ticker": "TXN",
    "call": "watch",
    "why": "mixed",
@@ -173,6 +165,14 @@
    "name": "Vertex Pharmaceuticals",
    "trigger": "WATCH. No buy today. Reconsider from Wed Dec 2 only if VRTX closes above $515 twice in a row (about $506 now); red team first.",
    "story": "FDA delayed its kidney drug decision to Feb 28: a delay, not a rejection. Sales grow 12%, but EPS fell 1% and Trikafta sales fell 8%."
+  },
+  {
+   "ticker": "AVGO",
+   "call": "watch",
+   "why": "mixed",
+   "name": "AI chips: Broadcom, AMD, BESI",
+   "trigger": "WATCH. No buy: each has a company-specific cause and AI-chip exposure is already high. Broadcom: recheck after results Wed Dec 9; red team first.",
+   "story": "Not clean mood drops: Broadcom has a reported Google TPU order cut, AMD export-rule and share-resale news, BESI a flat Q4 guide."
   },
   {
    "ticker": "RHM",
